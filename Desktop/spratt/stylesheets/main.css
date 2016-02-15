@@ -413,7 +413,9 @@ ul {
   margin-right: auto; }
 
 .image:hover {
-  box-shadow: inset 0px 0px 20px 5px #d7d7d7; }
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999; }
 
 /*
 $linkedin: ".linkedin";
@@ -518,7 +520,16 @@ background: #D3D3D3;
 }
 */
 .projectsSection {
+  width: 90%;
   margin: 0 auto; }
+  @media only screen and (max-width: 400px) {
+    .projectsSection {
+      width: 100%; } }
+
+.portfolioWrapper {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center; }
 
 .project {
   vertical-align: baseline;
@@ -527,6 +538,13 @@ background: #D3D3D3;
   width: 100%; }
 
 @media only screen and (min-width: 700px) {
+  .project {
+    vertical-align: baseline;
+    display: inline-block;
+    width: 35%;
+    padding: 0 30px;
+    padding-bottom: 1.5rem; } }
+@media only screen and (min-width: 1078px) {
   .project {
     vertical-align: baseline;
     display: inline-block;

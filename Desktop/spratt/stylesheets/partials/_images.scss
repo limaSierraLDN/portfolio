@@ -4,7 +4,13 @@
     margin-left: auto;
     margin-right: auto;
 }
+    
 
 .image:hover {
-    box-shadow: inset 0px 0px 20px 5px #d7d7d7;
+    -moz-box-shadow: 1px 1px 5px #999; 
+    -webkit-box-shadow: 1px 1px 5px #999; 
+    box-shadow: 1px 1px 5px #999;
 }
+
+
+
