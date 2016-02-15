@@ -4,12 +4,14 @@
 
 // Modules and Variables 
 
-
+@import "modules/all";
 @import "modules/colors";
     
 // Partials
 
 @import "partials/base";
+@import "partials/header";
+@import "partials/images";
 @import "partials/typography";
 @import "partials/buttons";
 @import "partials/grids";

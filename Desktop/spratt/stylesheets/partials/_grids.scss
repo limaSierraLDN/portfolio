@@ -1,20 +1,30 @@
-.portfolioWrapper {
-    max-width: 90%;
-    margin: 0 auto; 
+
+.projectsSection {
+    margin: 0 auto;
 }
 
+
+.project {
+    vertical-align: baseline;
+    display: block;
+    margin: 3em auto;
+    width: 100%;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 700px) {
 .project {
     vertical-align: baseline;
     display: inline-block;
     width: 25%;
     padding: 0 30px;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
+}
 }
 
-.image {
-    display: block;
-    width: 100px;
-    height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
+    

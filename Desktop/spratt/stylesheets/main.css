@@ -387,20 +387,45 @@ ul {
   height: 100%;
   margin: 0 auto -4em; }
 
+.titleHeader {
+  font-size: 1.6em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: lighter;
+  margin-bottom: 0.5em; }
+
+@media only screen and (min-width: 425px) {
+  .titleHeader {
+    font-size: 2em; } }
+.titleText {
+  text-align: center;
+  color: #d7d7d7;
+  font-weight: 200;
+  margin-bottom: 1em;
+  text-transform: capitalize;
+  font-size: 1.2em; }
+
+.image {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.image:hover {
+  box-shadow: inset 0px 0px 20px 5px #d7d7d7; }
+
+/*
+$linkedin: ".linkedin";
+$email: ".email";
+$twitter: ".twitter"; 
+*/
 body,
 p,
 h1,
 h3,
 ul {
   font-family: "Helvetica", "sans-serif"; }
-
-.titleHeader {
-  font-size: 2em;
-  text-align: center;
-  margin-bottom: 1em;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  font-weight: lighter; }
 
 .text {
   text-align: center; }
@@ -410,32 +435,126 @@ a {
   color: black;
   font-family: "Helvetica", "sans-serif"; }
 
-.portfolioWrapper {
-  max-width: 90%;
+.project-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.3em;
+  text-align: center; }
+
+.project-detail {
+  font-color: #777;
+  font-size: 13px; }
+
+/* Sliding Links Lines */
+.sliding-e {
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+  width: 0px;
+  transition: 0.5s ease;
+  white-space: nowrap;
+  height: 20px; }
+
+.sliding-e:hover {
+  border-bottom: 3px solid #d7d7d7;
+  width: 43px; }
+
+.sliding-l {
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+  width: 0px;
+  transition: 0.5s ease;
+  white-space: nowrap;
+  height: 20px; }
+
+.sliding-l:hover {
+  border-bottom: 3px solid #d7d7d7;
+  width: 63px; }
+
+.sliding-t {
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+  width: 0px;
+  transition: 0.5s ease;
+  white-space: nowrap;
+  height: 20px; }
+
+.sliding-t:hover {
+  border-bottom: 3px solid #d7d7d7;
+  width: 50px; }
+
+/*
+
+NEED TO FIX IF STATMENE TTO DRY CODE
+
+.sliding {
+display: inline-block;
+}
+.sliding:after {
+content: '';
+display: block;
+height: 3px;
+width: 0;
+background: transparent;
+transition: width .5s ease, background-color .5s ease;
+}
+.sliding:hover:after {
+width: 100%;
+      /* @if .email {
+        width: 200px;
+    }
+    else if .linkedin {
+        width: 400px;
+    }
+    else if .twitter {
+        width: 600px;
+    } 
+background: #D3D3D3;
+}
+*/
+.projectsSection {
   margin: 0 auto; }
 
 .project {
   vertical-align: baseline;
-  display: inline-block;
-  width: 25%;
-  padding: 0 30px;
-  padding-bottom: 2rem; }
-
-.image {
   display: block;
-  width: 100px;
-  height: 100px;
-  margin-left: auto;
-  margin-right: auto; }
+  margin: 3em auto;
+  width: 100%; }
 
+@media only screen and (min-width: 700px) {
+  .project {
+    vertical-align: baseline;
+    display: inline-block;
+    width: 25%;
+    padding: 0 30px;
+    padding-bottom: 1.5rem; } }
 /* Footer */
 .footerWrapper {
+  border-top: 1px solid #d7d7d7;
   background-color: white;
   height: 125px; }
 
-.footerNav ul {
+.footer-title {
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 0.5em;
+  margin-left: 1.5em;
+  margin-bottom: 1em; }
+
+.footerNav {
   list-style-type: none;
-  margin-right: 1em;
-  display: block; }
+  display: block;
+  margin-bottom: 2em;
+  margin-left: 2em; }
+  .footerNav li {
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+    display: block; }
 
 /*# sourceMappingURL=main.css.map */
