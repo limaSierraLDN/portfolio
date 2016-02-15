@@ -1,0 +1,20 @@
+.portfolioWrapper {
+    max-width: 90%;
+    margin: 0 auto; 
+}
+
+.project {
+    vertical-align: baseline;
+    display: inline-block;
+    width: 25%;
+    padding: 0 30px;
+    padding-bottom: 2rem;
+}
+
+.image {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}

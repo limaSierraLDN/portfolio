@@ -1,0 +1,28 @@
+$body_font: "Helvetica", "sans-serif";
+
+body, 
+p,
+h1,
+h3,
+ul {
+    font-family: $body_font;
+}
+
+.titleHeader {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: lighter;
+}
+
+.text {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: $text_color;
+    font-family: $body_font;
+}
