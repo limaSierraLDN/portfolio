@@ -433,12 +433,9 @@ a {
   background-color: white;
   height: 125px; }
 
-.footerNav {
+.footerNav ul {
   list-style-type: none;
-  float: right;
-  margin-right: 1em; }
-
-.footerNav li {
-  display: inline; }
+  margin-right: 1em;
+  display: block; }
 
 /*# sourceMappingURL=main.css.map */
