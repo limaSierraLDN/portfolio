@@ -1,0 +1,25 @@
+
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+ul {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-padding-start: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: 100%;
+  margin: 0 auto -4em;
+}

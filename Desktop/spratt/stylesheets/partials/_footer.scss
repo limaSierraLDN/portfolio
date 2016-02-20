@@ -1,0 +1,33 @@
+
+/* Footer */
+
+.footerWrapper {
+    border-top: 1px solid #d7d7d7;
+    background-color: white;
+    height: 125px;
+}
+
+.footer-title {
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+    
+}
+
+.footerNav {
+    list-style-type: none;  
+    display: block;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    
+    li {
+        margin-left: 2em;
+        margin-bottom: 0.5em;
+        display: block;
+    }
+    
+}
+

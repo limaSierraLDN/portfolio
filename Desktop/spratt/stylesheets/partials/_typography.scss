@@ -1,0 +1,120 @@
+/*
+$linkedin: ".linkedin";
+$email: ".email";
+$twitter: ".twitter"; 
+*/
+
+body, 
+p,
+h1,
+h3,
+ul {
+    font-family: $body_font;
+}
+
+
+.text {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: $text_color;
+    font-family: $body_font;
+}
+
+.project-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+
+
+.project-detail {
+    font-color: $info_text_color;
+    font-size: 13px;
+}
+
+
+/* Sliding Links Lines */
+
+.sliding-e {
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 3px solid transparent;    
+    width: 0px;
+    transition: 0.5s ease;
+    white-space: nowrap;
+    height: 20px;
+}
+ .sliding-e:hover {
+            border-bottom: 3px solid #d7d7d7;
+            width: 43px;
+        }
+
+
+.sliding-l {
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 3px solid transparent;    
+    width: 0px;
+    transition: 0.5s ease;
+    white-space: nowrap;
+    height: 20px;
+}
+        .sliding-l:hover {
+            border-bottom: 3px solid #d7d7d7;
+            width: 63px;
+}
+
+
+
+.sliding-t {
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 3px solid transparent;    
+    width: 0px;
+    transition: 0.5s ease;
+    white-space: nowrap;
+    height: 20px;
+}
+        .sliding-t:hover {
+            border-bottom: 3px solid #d7d7d7;
+            width: 50px;
+
+}
+
+/*
+
+NEED TO FIX IF STATMENE TTO DRY CODE
+
+.sliding {
+display: inline-block;
+}
+.sliding:after {
+content: '';
+display: block;
+height: 3px;
+width: 0;
+background: transparent;
+transition: width .5s ease, background-color .5s ease;
+}
+.sliding:hover:after {
+width: 100%;
+      /* @if .email {
+        width: 200px;
+    }
+    else if .linkedin {
+        width: 400px;
+    }
+    else if .twitter {
+        width: 600px;
+    } 
+background: #D3D3D3;
+}
+*/
