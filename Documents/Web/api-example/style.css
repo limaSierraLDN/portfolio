@@ -1,0 +1,71 @@
+header {
+  padding: 2em;
+  text-align: center;
+  color: #1C3E94;
+}
+
+header img {
+  max-width: 100%;
+}
+
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+}
+
+#header {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-size: 4em;
+}
+
+.info {
+    font-family: 'Bad Script';
+    padding: 1em 1em;
+    font-size: 2em;
+    border-bottom: 1px solid #1C3E94;
+    border-top: 1px solid #1C3E94;
+    width: 60%;
+    margin: 0px auto;
+}
+
+header input {
+  background-color: #1C3E94;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}
+
+#search-bethnal-tube {
+    width: 25%;
+    height: 120px;
+    margin-top: 2em;
+    font-size: 3em;
+}
+
+#search-bethnal-tube:hover {
+    color: #1C3E94;
+    background-color: lightblue;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border: 1px solid #1C3E94;
+    cursor: pointer;
+}
+
+.name {
+    font-size: 3em;
+    margin-right: 0.3em;
+    
+}
+
+.time {
+    font-size: 3em;
+}
