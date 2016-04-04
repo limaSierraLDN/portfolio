@@ -368,6 +368,7 @@ td,
 th {
   padding: 0; }
 
+/* $body_font: @font-face { font-family: ICTAvantGard; src: url('../../Fonts/ITCAvantGardeGothicStd'); } */
 * {
   margin: 0; }
 
@@ -388,16 +389,24 @@ ul {
   margin: 0 auto -4em; }
 
 .titleHeader {
-  font-size: 1.6em;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
   font-weight: lighter;
-  margin-bottom: 0.5em; }
+  margin-bottom: 0.5em;
+  display: inline-block; }
 
 @media only screen and (min-width: 425px) {
   .titleHeader {
     font-size: 2em; } }
+.title {
+  font: ICT;
+  font-weight: lighter; }
+
+.titleAlt {
+  font: ICTBold;
+  font-weight: bold; }
+
+.titleHeader {
+  display: inline-block; }
+
 .titleText {
   text-align: center;
   color: #d7d7d7;
@@ -406,6 +415,22 @@ ul {
   text-transform: capitalize;
   font-size: 1.2em; }
 
+.navContainer {
+  width: 50%;
+  margin: 0 auto;
+  display: inline-block;
+  margin-left: 16em; }
+
+.nav {
+  vertical-align: top;
+  display: inline-block;
+  list-style-type: none; }
+
+.nav li {
+  margin-left: 4em;
+  display: inline-block;
+  vertical-align: top; }
+
 .image {
   display: block;
   width: 100%;
@@ -413,9 +438,7 @@ ul {
   margin-right: auto; }
 
 .image:hover {
-  -moz-box-shadow: 1px 1px 5px #999;
-  -webkit-box-shadow: 1px 1px 5px #999;
-  box-shadow: 1px 1px 5px #999; }
+  opacity: 0.6; }
 
 /*
 $linkedin: ".linkedin";
@@ -427,7 +450,7 @@ p,
 h1,
 h3,
 ul {
-  font-family: "Helvetica", "sans-serif"; }
+  font-family: "Verdana"; }
 
 .text {
   text-align: center; }
@@ -435,23 +458,16 @@ ul {
 a {
   text-decoration: none;
   color: black;
-  font-family: "Helvetica", "sans-serif"; }
+  font-family: "Verdana"; }
 
-.project-title {
-  font-size: 16px;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1.3em;
-  text-align: center; }
-
-.project-detail {
-  font-color: #777;
-  font-size: 13px; }
-
+@font-face {
+  font-family: ICT;
+  src: url(../../Fonts/ITCAvantGardeStd-Bk.otf); }
+@font-face {
+  font-family: ICTBold;
+  src: url(../../Fonts/ITCAvantGardeStd-Bold.otf); }
 /* Sliding Links Lines */
-.sliding-e {
+.sliding-a {
   text-decoration: none;
   display: inline-block;
   border-bottom: 3px solid transparent;
@@ -460,35 +476,35 @@ a {
   white-space: nowrap;
   height: 20px; }
 
-.sliding-e:hover {
-  border-bottom: 3px solid #d7d7d7;
-  width: 43px; }
-
-.sliding-l {
-  text-decoration: none;
-  display: inline-block;
-  border-bottom: 3px solid transparent;
-  width: 0px;
-  transition: 0.5s ease;
-  white-space: nowrap;
-  height: 20px; }
-
-.sliding-l:hover {
-  border-bottom: 3px solid #d7d7d7;
-  width: 63px; }
-
-.sliding-t {
-  text-decoration: none;
-  display: inline-block;
-  border-bottom: 3px solid transparent;
-  width: 0px;
-  transition: 0.5s ease;
-  white-space: nowrap;
-  height: 20px; }
-
-.sliding-t:hover {
+.sliding-a:hover {
   border-bottom: 3px solid #d7d7d7;
   width: 50px; }
+
+.sliding-w {
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+  width: 0px;
+  transition: 0.5s ease;
+  white-space: nowrap;
+  height: 20px; }
+
+.sliding-w:hover {
+  border-bottom: 3px solid #d7d7d7;
+  width: 40px; }
+
+.sliding-c {
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+  width: 0px;
+  transition: 0.5s ease;
+  white-space: nowrap;
+  height: 20px; }
+
+.sliding-c:hover {
+  border-bottom: 3px solid #d7d7d7;
+  width: 60px; }
 
 /*
 
@@ -519,8 +535,13 @@ width: 100%;
 background: #D3D3D3;
 }
 */
+.page {
+  width: 85%;
+  margin: 0 auto;
+  height: 100vh; }
+
 .projectsSection {
-  width: 90%;
+  width: 100%;
   margin: 0 auto; }
   @media only screen and (max-width: 400px) {
     .projectsSection {
@@ -534,15 +555,19 @@ background: #D3D3D3;
 .project {
   vertical-align: baseline;
   display: block;
-  margin: 3em auto;
+  margin: 0 auto;
+  margin-top: 1em;
   width: 100%; }
 
 @media only screen and (min-width: 888px) {
+  .projectSection {
+    width: 95%; }
+
   .project {
     vertical-align: baseline;
     display: inline-block;
-    width: 42%;
-    padding: 0 30px;
+    width: 30%;
+    padding: 0 10px;
     padding-bottom: 1.5rem; } }
 @media only screen and (min-width: 1300px) {
   .project {
@@ -581,5 +606,19 @@ background: #D3D3D3;
     margin-left: 2em;
     margin-bottom: 0.5em;
     display: block; }
+
+.textContainer {
+  width: 60%;
+  font-size: 12px;
+  font-weight: lighter;
+  line-height: 2em; }
+
+.textContainer p {
+  margin-top: 2em; }
+
+.textContainerC {
+  width: 60%;
+  font-size: 12px;
+  font-weight: lighter; }
 
 /*# sourceMappingURL=main.css.map */

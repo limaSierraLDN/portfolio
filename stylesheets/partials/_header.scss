@@ -1,18 +1,28 @@
 .titleHeader {
-    font-size: 1.6em;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
     font-weight: lighter;
     margin-bottom: 0.5em;
+    display: inline-block;
     }
-
 
 
 @media only screen and (min-width: 425px) {
  .titleHeader {
     font-size: 2em;
 }   
+}
+
+.title {
+    font: ICT;
+    font-weight: lighter;  
+}
+
+.titleAlt {
+    font: ICTBold;
+    font-weight: bold;
+}
+
+.titleHeader {
+    display: inline-block;
 }
 
 .titleText {
@@ -22,4 +32,25 @@
     margin-bottom: 1em;
     text-transform: capitalize;
     font-size: 1.2em;
+}
+
+.navContainer {
+    width: 50%;
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 16em;
+}
+
+.nav {
+    vertical-align: top;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.nav li {
+    margin-left: 4em;
+    display: inline-block;
+    vertical-align: top;
+    
+    
 }

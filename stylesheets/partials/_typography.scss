@@ -9,7 +9,7 @@ p,
 h1,
 h3,
 ul {
-    font-family: $body_font;
+    font-family: "Verdana";
 }
 
 
@@ -20,30 +20,24 @@ ul {
 a {
     text-decoration: none;
     color: $text_color;
-    font-family: $body_font;
-}
-
-.project-title {
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.3em;
-    text-align: center;
+    font-family: "Verdana";
 }
 
 
+@font-face {
+   font-family: ICT;
+   src: url(../../Fonts/ITCAvantGardeStd-Bk.otf);
+}
 
-.project-detail {
-    font-color: $info_text_color;
-    font-size: 13px;
+@font-face {
+   font-family: ICTBold;
+   src: url(../../Fonts/ITCAvantGardeStd-Bold.otf);
 }
 
 
 /* Sliding Links Lines */
 
-.sliding-e {
+.sliding-a {
     text-decoration: none;
     display: inline-block;
     border-bottom: 3px solid transparent;    
@@ -52,13 +46,13 @@ a {
     white-space: nowrap;
     height: 20px;
 }
- .sliding-e:hover {
+ .sliding-a:hover {
             border-bottom: 3px solid #d7d7d7;
-            width: 43px;
+            width: 50px;
         }
 
 
-.sliding-l {
+.sliding-w {
     text-decoration: none;
     display: inline-block;
     border-bottom: 3px solid transparent;    
@@ -67,14 +61,14 @@ a {
     white-space: nowrap;
     height: 20px;
 }
-        .sliding-l:hover {
+        .sliding-w:hover {
             border-bottom: 3px solid #d7d7d7;
-            width: 63px;
+            width: 40px;
 }
 
 
 
-.sliding-t {
+.sliding-c {
     text-decoration: none;
     display: inline-block;
     border-bottom: 3px solid transparent;    
@@ -83,9 +77,9 @@ a {
     white-space: nowrap;
     height: 20px;
 }
-        .sliding-t:hover {
+        .sliding-c:hover {
             border-bottom: 3px solid #d7d7d7;
-            width: 50px;
+            width: 60px;
 
 }
 

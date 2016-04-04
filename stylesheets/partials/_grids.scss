@@ -1,6 +1,14 @@
+.page {
+    width: 85%;
+    margin: 0 auto;
+    height: 100vh;
+    
+}
+
+
 
 .projectsSection {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     
     @media only screen and (max-width: 400px) {
@@ -17,20 +25,28 @@
 .project {
     vertical-align: baseline;
     display: block;
-    margin: 3em auto;
+    margin: 0 auto;
+    margin-top: 1em;
     width: 100%;
 }
 
 
 
+
+
 @media only screen and (min-width: 888px) {
-.project {
-    vertical-align: baseline;
-    display: inline-block;
-    width: 42%;
-    padding: 0 30px;
-    padding-bottom: 1.5rem;
-}
+    
+    .projectSection {
+        width: 95%;
+    }
+    
+    .project {
+        vertical-align: baseline;
+        display: inline-block;
+        width: 30%;
+        padding: 0 10px;
+        padding-bottom: 1.5rem;
+    }
 }
 
 
