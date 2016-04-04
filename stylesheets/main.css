@@ -427,9 +427,11 @@ ul {
   list-style-type: none; }
 
 .nav li {
-  margin-left: 4em;
   display: inline-block;
   vertical-align: top; }
+
+.headerWrapper {
+  padding-top: 2em; }
 
 .image {
   display: block;
@@ -466,45 +468,42 @@ a {
 @font-face {
   font-family: ICTBold;
   src: url(../../Fonts/ITCAvantGardeStd-Bold.otf); }
+.navActive {
+  font-weight: 700; }
+
 /* Sliding Links Lines */
 .sliding-a {
   text-decoration: none;
   display: inline-block;
   border-bottom: 3px solid transparent;
-  width: 0px;
   transition: 0.5s ease;
   white-space: nowrap;
   height: 20px; }
 
 .sliding-a:hover {
-  border-bottom: 3px solid #d7d7d7;
-  width: 50px; }
+  border-bottom: 3px solid #d7d7d7; }
 
 .sliding-w {
   text-decoration: none;
   display: inline-block;
   border-bottom: 3px solid transparent;
-  width: 0px;
   transition: 0.5s ease;
   white-space: nowrap;
   height: 20px; }
 
 .sliding-w:hover {
-  border-bottom: 3px solid #d7d7d7;
-  width: 40px; }
+  border-bottom: 3px solid #d7d7d7; }
 
 .sliding-c {
   text-decoration: none;
   display: inline-block;
   border-bottom: 3px solid transparent;
-  width: 0px;
   transition: 0.5s ease;
   white-space: nowrap;
   height: 20px; }
 
 .sliding-c:hover {
-  border-bottom: 3px solid #d7d7d7;
-  width: 60px; }
+  border-bottom: 3px solid #d7d7d7; }
 
 /*
 
@@ -536,9 +535,12 @@ background: #D3D3D3;
 }
 */
 .page {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
-  height: 100vh; }
+  height: 100vh;
+  padding-left: 2em;
+  padding-right: 2em;
+  box-shadow: 2px 0 10px  -2px grey , -2px 0 10px  -2px grey; }
 
 .projectsSection {
   width: 100%;
