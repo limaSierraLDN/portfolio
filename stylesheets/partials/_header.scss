@@ -2,7 +2,7 @@
 
 .titleHeader {
     font-weight: lighter;
-    margin-bottom: 0.5em;
+    margin-bottom: 1.2em;
     display: inline-block;
     }
 
@@ -14,16 +14,20 @@
 }
 
 .title {
-    font: ICT;
-    font-weight: lighter;  
+
+    font-size: 0.7em;
+    font: 'ICT';
+    font-weight: lighter; 
 }
 
 .titleAlt {
-    font: ICTBold;
+    font-size: 0.7em;
+    font: 'ICTBold';
     font-weight: bold;
 }
 
 .titleHeader {
+    line-height: 0.6em;
     display: inline-block;
 }
 
@@ -40,7 +44,7 @@
     width: 50%;
     margin: 0 auto;
     display: inline-block;
-    margin-left: 16em;
+    margin-left: 6em;
 }
 
 .nav {
@@ -54,6 +58,7 @@
 }
 
 .nav li {
+    margin-left: 5em;
     display: inline-block;
     vertical-align: top;
     

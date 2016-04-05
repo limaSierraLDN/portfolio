@@ -5,12 +5,12 @@ $twitter: ".twitter";
 */
 
 @font-face {
-   font-family: ICT;
+   font-family: 'ICT';
    src: url(../../Fonts/ITCAvantGardeStd-Bk.otf);
 }
 
 @font-face {
-   font-family: ICTBold;
+   font-family: 'ICTBold';
    src: url(../../Fonts/ITCAvantGardeStd-Bold.otf);
 }
 
@@ -19,7 +19,7 @@ p,
 h1,
 h3,
 ul {
-    font-family: ICT;
+    font-family: 'ICT';
 }
 
 
@@ -37,81 +37,29 @@ a {
 
 /* Sliding Links Lines */
 
-.sliding-a {
-    text-decoration: none;
-    display: inline-block;
-    border-bottom: 3px solid transparent;    
-    //width: 20px;
-    transition: 0.5s ease;
-    white-space: nowrap;
-    height: 20px;
-}
- .sliding-a:hover {
-            border-bottom: 3px solid #d7d7d7;
-           // width: 50px;
-        }
-
-
-
-.sliding-w {
-    text-decoration: none;
-    display: inline-block;
-    border-bottom: 3px solid transparent;    
-    //width: 20px;
-    transition: 0.5s ease;
-    white-space: nowrap;
-    height: 20px;
-}
-        .sliding-w:hover {
-            border-bottom: 3px solid #d7d7d7;
-            //width: 40px;
-}
-
-
-
-
-
+.sliding-a, 
+.sliding-w,
 .sliding-c {
-    text-decoration: none;
-    display: inline-block;
-    border-bottom: 3px solid transparent;    
-    //width: 60px;
-    transition: 0.5s ease;
-    white-space: nowrap;
-    height: 20px;
-}
-        .sliding-c:hover {
-            border-bottom: 3px solid #d7d7d7;
-            //width: 60px;
-
+     text-decoration: none;
+    position: relative;  
 }
 
-/*
-
-NEED TO FIX IF STATMENE TTO DRY CODE
-
-.sliding {
-display: inline-block;
+.sliding-a:after, 
+.sliding-w:after,
+.sliding-c:after {
+     content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid black;
+  transition: 0.4s;
 }
-.sliding:after {
-content: '';
-display: block;
-height: 3px;
-width: 0;
-background: transparent;
-transition: width .5s ease, background-color .5s ease;
-}
-.sliding:hover:after {
+
+.sliding-a:hover:after, 
+.sliding-w:hover:after,
+.sliding-c:hover:after {
 width: 100%;
-      /* @if .email {
-        width: 200px;
-    }
-    else if .linkedin {
-        width: 400px;
-    }
-    else if .twitter {
-        width: 600px;
-    } 
-background: #D3D3D3;
 }
-*/
+
+

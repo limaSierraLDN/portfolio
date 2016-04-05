@@ -1,10 +1,11 @@
 .page {
     width: 90%;
     margin: 0 auto;
-    height: 100%;
+    min-height: 100vh;
     //padding-left: 2em;
     //padding-right: 2em;
     box-shadow: -2px 0 30px  0 #D3D3D3 , 2px 0 30px  0 #D3D3D3;
+    overflow: hidden;
 }
 /*60px 0px 100px -90px #000000,
                  60px 0px 100px -90px #000000;
