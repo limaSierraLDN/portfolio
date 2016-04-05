@@ -403,7 +403,7 @@ p,
 h1,
 h3,
 ul {
-  font-family: 'ICT'; }
+  font-family: 'ICT', 'Verdana'; }
 
 .text {
   text-align: center; }
@@ -411,7 +411,7 @@ ul {
 a {
   text-decoration: none;
   color: black;
-  font-family: "Verdana"; }
+  font-family: 'ICT', "Verdana"; }
 
 /* Sliding Links Lines */
 .sliding-a,
@@ -553,7 +553,7 @@ a {
     padding-bottom: 1.5rem; } }
 .textContainer {
   margin-left: 9.6em;
-  font-family: 'ICT';
+  font-family: 'ICT', 'Verdana';
   width: 50%;
   font-size: 12px;
   font-weight: lighter;
@@ -565,7 +565,7 @@ a {
 /* Contact Page */
 .textContainerC {
   margin-left: 9.6em;
-  font-family: 'ICT';
+  font-family: 'ICT', 'Verdana';
   width: 60%;
   font-size: 12px;
   font-weight: lighter;
@@ -573,5 +573,28 @@ a {
 
 .textContainerC p {
   margin-top: 1.5em; }
+
+.portContainer {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto; }
+
+.imageContainer {
+  text-align: center; }
+
+.portImage {
+  text-align: center;
+  margin: 0 auto; }
+
+.capContainer {
+  padding-top: 0.5em;
+  padding-bottom: 2em; }
+
+.portCap {
+  font-family: 'ICT', "Verdana";
+  font-size: 12px;
+  text-align: center;
+  width: 66.66%;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
