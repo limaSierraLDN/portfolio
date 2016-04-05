@@ -49,6 +49,10 @@
     list-style-type: none;
 }
 
+.navActive {
+    font-weight: 700;
+}
+
 .nav li {
     display: inline-block;
     vertical-align: top;
@@ -58,4 +62,5 @@
 
 .headerWrapper {
     padding-top: 2em;
+    padding-left: 7em;
 }

@@ -4,12 +4,22 @@ $email: ".email";
 $twitter: ".twitter"; 
 */
 
+@font-face {
+   font-family: ICT;
+   src: url(../../Fonts/ITCAvantGardeStd-Bk.otf);
+}
+
+@font-face {
+   font-family: ICTBold;
+   src: url(../../Fonts/ITCAvantGardeStd-Bold.otf);
+}
+
 body, 
 p,
 h1,
 h3,
 ul {
-    font-family: "Verdana";
+    font-family: ICT;
 }
 
 
@@ -23,21 +33,6 @@ a {
     font-family: "Verdana";
 }
 
-
-@font-face {
-   font-family: ICT;
-   src: url(../../Fonts/ITCAvantGardeStd-Bk.otf);
-}
-
-@font-face {
-   font-family: ICTBold;
-   src: url(../../Fonts/ITCAvantGardeStd-Bold.otf);
-}
-
-
-.navActive {
-    font-weight: 700;
-}
 
 
 /* Sliding Links Lines */

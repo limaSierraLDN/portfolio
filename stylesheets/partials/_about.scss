@@ -1,4 +1,5 @@
 .textContainer {
+    font: ICT;
     width: 60%;
     font-size: 12px;
     font-weight: lighter;
@@ -9,9 +10,16 @@
     margin-top: 2em;
 }
 
+/* Contact Page */
+
 .textContainerC {
+    font: ICT;
     width: 60%;
     font-size: 12px;
     font-weight: lighter;
-    
+    line-height: 1em;
+}
+
+.textContainerC p {
+    margin-top: 1.5em;
 }

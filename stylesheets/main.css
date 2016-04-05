@@ -368,7 +368,6 @@ td,
 th {
   padding: 0; }
 
-/* $body_font: @font-face { font-family: ICTAvantGard; src: url('../../Fonts/ITCAvantGardeGothicStd'); } */
 * {
   margin: 0; }
 
@@ -388,71 +387,23 @@ ul {
   height: 100%;
   margin: 0 auto -4em; }
 
-.titleHeader {
-  font-weight: lighter;
-  margin-bottom: 0.5em;
-  display: inline-block; }
-
-@media only screen and (min-width: 425px) {
-  .titleHeader {
-    font-size: 2em; } }
-.title {
-  font: ICT;
-  font-weight: lighter; }
-
-.titleAlt {
-  font: ICTBold;
-  font-weight: bold; }
-
-.titleHeader {
-  display: inline-block; }
-
-.titleText {
-  text-align: center;
-  color: #d7d7d7;
-  font-weight: 200;
-  margin-bottom: 1em;
-  text-transform: capitalize;
-  font-size: 1.2em; }
-
-.navContainer {
-  width: 50%;
-  margin: 0 auto;
-  display: inline-block;
-  margin-left: 16em; }
-
-.nav {
-  vertical-align: top;
-  display: inline-block;
-  list-style-type: none; }
-
-.nav li {
-  display: inline-block;
-  vertical-align: top; }
-
-.headerWrapper {
-  padding-top: 2em; }
-
-.image {
-  display: block;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto; }
-
-.image:hover {
-  opacity: 0.6; }
-
 /*
 $linkedin: ".linkedin";
 $email: ".email";
 $twitter: ".twitter"; 
 */
+@font-face {
+  font-family: ICT;
+  src: url(../../Fonts/ITCAvantGardeStd-Bk.otf); }
+@font-face {
+  font-family: ICTBold;
+  src: url(../../Fonts/ITCAvantGardeStd-Bold.otf); }
 body,
 p,
 h1,
 h3,
 ul {
-  font-family: "Verdana"; }
+  font-family: ICT; }
 
 .text {
   text-align: center; }
@@ -461,15 +412,6 @@ a {
   text-decoration: none;
   color: black;
   font-family: "Verdana"; }
-
-@font-face {
-  font-family: ICT;
-  src: url(../../Fonts/ITCAvantGardeStd-Bk.otf); }
-@font-face {
-  font-family: ICTBold;
-  src: url(../../Fonts/ITCAvantGardeStd-Bold.otf); }
-.navActive {
-  font-weight: 700; }
 
 /* Sliding Links Lines */
 .sliding-a {
@@ -534,14 +476,73 @@ width: 100%;
 background: #D3D3D3;
 }
 */
+.titleHeader {
+  font-weight: lighter;
+  margin-bottom: 0.5em;
+  display: inline-block; }
+
+@media only screen and (min-width: 425px) {
+  .titleHeader {
+    font-size: 2em; } }
+.title {
+  font: ICT;
+  font-weight: lighter; }
+
+.titleAlt {
+  font: ICTBold;
+  font-weight: bold; }
+
+.titleHeader {
+  display: inline-block; }
+
+.titleText {
+  text-align: center;
+  color: #d7d7d7;
+  font-weight: 200;
+  margin-bottom: 1em;
+  text-transform: capitalize;
+  font-size: 1.2em; }
+
+.navContainer {
+  width: 50%;
+  margin: 0 auto;
+  display: inline-block;
+  margin-left: 16em; }
+
+.nav {
+  vertical-align: top;
+  display: inline-block;
+  list-style-type: none; }
+
+.navActive {
+  font-weight: 700; }
+
+.nav li {
+  display: inline-block;
+  vertical-align: top; }
+
+.headerWrapper {
+  padding-top: 2em;
+  padding-left: 7em; }
+
+.image {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.image:hover {
+  opacity: 0.6; }
+
 .page {
   width: 90%;
   margin: 0 auto;
-  height: 100vh;
-  padding-left: 2em;
-  padding-right: 2em;
-  box-shadow: 2px 0 10px  -2px grey , -2px 0 10px  -2px grey; }
+  height: 100%;
+  box-shadow: -2px 0 30px  0 #D3D3D3 , 2px 0 30px  0 #D3D3D3; }
 
+/*60px 0px 100px -90px #000000,
+                 60px 0px 100px -90px #000000;
+} */
 .projectsSection {
   width: 100%;
   margin: 0 auto; }
@@ -585,31 +586,8 @@ background: #D3D3D3;
     width: 28%;
     padding: 0 30px;
     padding-bottom: 1.5rem; } }
-/* Footer */
-.footerWrapper {
-  border-top: 1px solid #d7d7d7;
-  background-color: white;
-  height: 125px; }
-
-.footer-title {
-  font-size: 30px;
-  font-weight: 300;
-  text-transform: uppercase;
-  margin-top: 0.5em;
-  margin-left: 1.5em;
-  margin-bottom: 1em; }
-
-.footerNav {
-  list-style-type: none;
-  display: block;
-  margin-bottom: 2em;
-  margin-left: 2em; }
-  .footerNav li {
-    margin-left: 2em;
-    margin-bottom: 0.5em;
-    display: block; }
-
 .textContainer {
+  font: ICT;
   width: 60%;
   font-size: 12px;
   font-weight: lighter;
@@ -618,9 +596,15 @@ background: #D3D3D3;
 .textContainer p {
   margin-top: 2em; }
 
+/* Contact Page */
 .textContainerC {
+  font: ICT;
   width: 60%;
   font-size: 12px;
-  font-weight: lighter; }
+  font-weight: lighter;
+  line-height: 1em; }
+
+.textContainerC p {
+  margin-top: 1.5em; }
 
 /*# sourceMappingURL=main.css.map */
