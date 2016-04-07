@@ -648,8 +648,6 @@ a {
   width: 90%; }
 
 .capContainer {
-  margin-top: 4em;
-  padding-top: 0.5em;
   padding-bottom: 2em; }
 
 .portCap {
@@ -665,14 +663,5 @@ a {
   position: relative;
   top: 50%;
   transform: translateY(-50%); }
-
-/*
-#left {
-    float: left;
-}
-
-#right {
-    float: right;
-} */
 
 /*# sourceMappingURL=main.css.map */
