@@ -15,6 +15,11 @@
 
     <!-- CSS -->
     <link href="stylesheets/main.css" media="screen" rel="stylesheet">
+    
+    <!-- JS -->
+    
+    <link rel="stylesheet" href="magnify/css/magnify.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <!-- Google Analytics -->
     <!-- ADD ANALYTICS -->
@@ -47,12 +52,21 @@
             
                 <div class="imageContainer">
                     <a href="port4.html"><img id="left" class="icon" src="icons/left.png"></a>
-                <img class ="portImage" src="images/Work/FocusedVisual.png">
+                <img class ="portImage" src="images/Work/FocusedVisual.png" data-magnify-src="" alt="Focused Visual">
                 <a href="port6.html"><img id="right" class="icon" src="icons/right.png"></a></div>
                     <div class="capContainer">
             <p class="portCap">blah blah blah blah blah</p>
                         </div>
          </div>   
     </div>
+        <script src="magnify/js/jquery.magnify.js"></script>
+<!-- Optional mobile plugin for smartphones -->
+<script src="magnify/js/jquery.magnify-mobile.js"></script>
+    
+    <script>
+$(document).ready(function() {
+  $('.zoom').magnify();
+});
+</script>
     </body>
 </html>
