@@ -4,6 +4,7 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -387,11 +388,6 @@ ul {
   height: 100%;
   margin: 0 auto -4em; }
 
-/*
-$linkedin: ".linkedin";
-$email: ".email";
-$twitter: ".twitter"; 
-*/
 @font-face {
   font-family: 'ICT';
   src: url(../../Fonts/ITCAvantGardeStd-Bk.otf); }
@@ -403,7 +399,7 @@ p,
 h1,
 h3,
 ul {
-  font-family: 'ICT', 'Verdana'; }
+  font-family: 'ICT', 'Open Sans', 'Verdana'; }
 
 .text {
   text-align: center; }
@@ -411,7 +407,7 @@ ul {
 a {
   text-decoration: none;
   color: black;
-  font-family: 'ICT', "Verdana"; }
+  font-family: 'ICT', 'Open Sans' ,'Verdana'; }
 
 /* Sliding Links Lines */
 .sliding-a,
@@ -425,7 +421,7 @@ a {
 .sliding-c:after {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: 0.2;
   left: 0;
   width: 0%;
   border-bottom: 2px solid black;
@@ -481,10 +477,17 @@ a {
   font-weight: 700; }
 
 .nav li {
+  /* 5em */
   margin-left: 5em;
   display: inline-block;
   vertical-align: top; }
 
+@media only screen and (min-width: 400px) {
+  .nav li {
+    margin-left: 3em; } }
+@media only screen and (min-width: 890px) {
+  .nav li {
+    margin-left: 5em; } }
 .headerWrapper {
   padding-top: 2em;
   padding-left: 7em; }
@@ -497,6 +500,12 @@ a {
 
 .image:hover {
   opacity: 0.6; }
+
+.portImage img {
+  cursor: url(/img/layout/backgrounds/zoom.cur), -moz-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in; }
 
 .page {
   width: 90%;

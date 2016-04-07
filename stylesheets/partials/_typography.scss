@@ -1,8 +1,5 @@
-/*
-$linkedin: ".linkedin";
-$email: ".email";
-$twitter: ".twitter"; 
-*/
+
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
 
 @font-face {
    font-family: 'ICT';
@@ -19,7 +16,7 @@ p,
 h1,
 h3,
 ul {
-    font-family: 'ICT', 'Verdana';
+    font-family: 'ICT', 'Open Sans', 'Verdana';
 }
 
 
@@ -30,7 +27,7 @@ ul {
 a {
     text-decoration: none;
     color: $text_color;
-    font-family: 'ICT', "Verdana";
+    font-family: 'ICT', 'Open Sans' ,'Verdana';
 }
 
 
@@ -49,7 +46,7 @@ a {
 .sliding-c:after {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: 0.2;
   left: 0;
   width: 0%;
   border-bottom: 2px solid black;
