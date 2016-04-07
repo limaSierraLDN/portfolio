@@ -579,7 +579,8 @@ a {
   line-height: 2em;
   font-family: 'ICT', 'Open Sans', 'Verdana';
   margin: 0 auto;
-  padding-top: 2em; }
+  padding-top: 1em;
+  padding-bottom: 1em; }
 
 .textContainer p {
   margin-top: 2em; }
@@ -587,7 +588,8 @@ a {
 @media only screen and (min-width: 770px) {
   .textContainer {
     margin-left: 9em;
-    width: 70%; } }
+    width: 70%;
+    padding-top: 1em; } }
 @media only screen and (min-width: 880px) {
   .textContainer {
     margin-left: 9em;
@@ -601,7 +603,7 @@ a {
   font-family: 'ICT', 'Open Sans', 'Verdana';
   margin: 0 auto;
   padding-top: 2em;
-  text-align: center; }
+  text-align: left; }
 
 .textContainerC p {
   margin-top: 1em; }
