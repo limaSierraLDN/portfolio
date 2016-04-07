@@ -421,7 +421,7 @@ a {
 .sliding-c:after {
   content: '';
   position: absolute;
-  bottom: 0.2;
+  bottom: 0;
   left: 0;
   width: 0%;
   border-bottom: 2px solid black;
@@ -432,14 +432,50 @@ a {
 .sliding-c:hover:after {
   width: 100%; }
 
+.headerWrapper {
+  width: 50%;
+  margin-top: 1em;
+  margin: 0 auto;
+  text-align: center; }
+
 .titleHeader {
+  margin-left: auto;
+  margin-right: auto;
   font-weight: lighter;
   margin-bottom: 1.2em;
-  display: inline-block; }
+  display: inline-block;
+  font-size: 2em;
+  padding: 1em 0.2em 0 0.2em;
+  text-align: left; }
 
-@media only screen and (min-width: 425px) {
+.nav li {
+  /* 5em */
+  display: block;
+  vertical-align: top;
+  margin: 0 0 1em 0;
+  text-align: center; }
+
+@media only screen and (min-width: 770px) {
+  .headerWrapper {
+    width: 100%;
+    padding-top: 0.5em;
+    padding-left: 3em; }
+
   .titleHeader {
-    font-size: 2em; } }
+    text-align: left; }
+
+  .navContainer {
+    width: 50%;
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 1em; }
+
+  .nav li {
+    display: inline-block;
+    padding: 0 1em 0 1em; } }
+@media only screen and (min-width: 880px) {
+  .navContainer {
+    width: 70%; } }
 .title {
   font-size: 0.7em;
   font: 'ICT';
@@ -462,36 +498,17 @@ a {
   text-transform: capitalize;
   font-size: 1.2em; }
 
-.navContainer {
-  width: 50%;
-  margin: 0 auto;
-  display: inline-block;
-  margin-left: 6em; }
-
-.nav {
-  vertical-align: top;
-  display: inline-block;
-  list-style-type: none; }
-
 .navActive {
   font-weight: 700; }
 
-.nav li {
-  /* 5em */
-  margin-left: 5em;
-  display: inline-block;
-  vertical-align: top; }
-
-@media only screen and (min-width: 400px) {
-  .nav li {
-    margin-left: 3em; } }
 @media only screen and (min-width: 890px) {
   .nav li {
-    margin-left: 5em; } }
-.headerWrapper {
-  padding-top: 2em;
-  padding-left: 7em; }
+    margin-left: 5em; }
 
+  .nav {
+    vertical-align: top;
+    display: inline-block;
+    list-style-type: none; } }
 .image {
   display: block;
   width: 100%;
@@ -500,12 +517,6 @@ a {
 
 .image:hover {
   opacity: 0.6; }
-
-.portImage img {
-  cursor: url(/img/layout/backgrounds/zoom.cur), -moz-zoom-in;
-  cursor: -moz-zoom-in;
-  cursor: -webkit-zoom-in;
-  cursor: zoom-in; }
 
 .page {
   width: 90%;
@@ -525,6 +536,7 @@ a {
       width: 100%; } }
 
 .portfolioWrapper {
+  padding-top: 1em;
   margin: 0 auto;
   width: 100%;
   text-align: center; }
@@ -561,29 +573,47 @@ a {
     padding: 0 30px;
     padding-bottom: 1.5rem; } }
 .textContainer {
-  margin-left: 9.6em;
-  font-family: 'ICT', 'Verdana';
-  width: 50%;
+  width: 90%;
   font-size: 12px;
   font-weight: lighter;
-  line-height: 2em; }
+  line-height: 2em;
+  font-family: 'ICT', 'Open Sans', 'Verdana';
+  margin: 0 auto;
+  padding-top: 2em; }
 
 .textContainer p {
   margin-top: 2em; }
 
+@media only screen and (min-width: 770px) {
+  .textContainer {
+    margin-left: 9em;
+    width: 70%; } }
+@media only screen and (min-width: 880px) {
+  .textContainer {
+    margin-left: 9em;
+    width: 60%; } }
 /* Contact Page */
 .textContainerC {
-  margin-left: 9.6em;
-  font-family: 'ICT', 'Verdana';
-  width: 60%;
+  width: 90%;
   font-size: 12px;
   font-weight: lighter;
-  line-height: 1em; }
+  line-height: 2em;
+  font-family: 'ICT', 'Open Sans', 'Verdana';
+  margin: 0 auto;
+  padding-top: 2em;
+  text-align: center; }
 
 .textContainerC p {
-  margin-top: 1.5em; }
+  margin-top: 1em; }
 
+@media only screen and (min-width: 770px) {
+  .textContainerC {
+    margin-left: 9.6em;
+    width: 60%;
+    line-height: 1em;
+    text-align: left; } }
 .portContainer {
+  padding-top: 2em;
   text-align: center;
   width: 90%;
   margin: 0 auto; }
@@ -593,14 +623,17 @@ a {
 
 .portImage {
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  height: auto;
+  width: 100%; }
 
 .capContainer {
+  margin-top: 4em;
   padding-top: 0.5em;
   padding-bottom: 2em; }
 
 .portCap {
-  font-family: 'ICT', "Verdana";
+  font-family: 'ICT', 'Open Sans', "Verdana";
   font-size: 12px;
   text-align: center;
   width: 66.66%;

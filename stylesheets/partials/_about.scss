@@ -1,28 +1,62 @@
 .textContainer {
-    margin-left: 9.6em;
-    font-family: 'ICT', 'Verdana';
-    width: 50%;
+    width: 90%;
     font-size: 12px;
     font-weight: lighter;
     line-height: 2em;
+    font-family: 'ICT', 'Open Sans', 'Verdana';
+    margin: 0 auto;
+    padding-top: 2em;
 }
 
-.textContainer p {
-    
+.textContainer p { 
     margin-top: 2em;
 }
 
+@media only screen and (min-width: 770px) {
+    
+    .textContainer {
+    margin-left: 9em;
+    width: 70%;   
+}
+}
+
+@media only screen and (min-width: 880px) {
+     .textContainer {
+    margin-left: 9em;
+    width: 60%;   
+}
+}
+
+    
+    
+    
 /* Contact Page */
 
 .textContainerC {
-    margin-left: 9.6em;
-    font-family: 'ICT', 'Verdana';
-    width: 60%;
+    width: 90%;
     font-size: 12px;
     font-weight: lighter;
-    line-height: 1em;
+    line-height: 2em;
+    font-family: 'ICT', 'Open Sans', 'Verdana';
+    margin: 0 auto;
+    padding-top: 2em;
+    text-align: center;
 }
 
 .textContainerC p {
-    margin-top: 1.5em;
+    margin-top: 1em;
 }
+
+@media only screen and (min-width: 770px) {
+
+    .textContainerC {
+    margin-left: 9.6em;
+    width: 60%;
+    line-height: 1em;
+        text-align: left;
+}
+}
+
+
+
+

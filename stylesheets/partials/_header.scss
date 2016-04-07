@@ -1,16 +1,60 @@
-
+.headerWrapper {
+    width: 50%;
+    margin-top: 1em;
+    margin: 0 auto;
+    text-align: center;
+    
+}
 
 .titleHeader {
+    margin-left: auto;
+    margin-right: auto;
     font-weight: lighter;
     margin-bottom: 1.2em;
     display: inline-block;
+    font-size: 2em;
+    padding: 1em 0.2em 0 0.2em;
+    text-align: left;
     }
 
 
-@media only screen and (min-width: 425px) {
- .titleHeader {
-    font-size: 2em;
-}   
+.nav li {
+    /* 5em */
+    //margin-left: 5em;
+    display: block;
+    vertical-align: top;   
+    margin: 0 0 1em 0;
+    text-align: center;
+}
+
+@media only screen and (min-width: 770px) {
+    .headerWrapper {
+    width: 100%;
+    padding-top: 0.5em;
+    padding-left: 3em;
+    }
+    
+    .titleHeader {
+        text-align: left;
+    }
+    
+    .navContainer {
+    width: 50%;
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 1em;
+}
+    
+    .nav li {
+        display: inline-block;
+        padding: 0 1em 0 1em;
+    }
+}
+
+@media only screen and (min-width: 880px) {
+    .navContainer {
+        width: 70%;
+    }
 }
 
 .title {
@@ -40,34 +84,17 @@
     font-size: 1.2em;
 }
 
-.navContainer {
-    width: 50%;
-    margin: 0 auto;
-    display: inline-block;
-    margin-left: 6em;
-}
 
-
-.nav {
-    vertical-align: top;
-    display: inline-block;
-    list-style-type: none;
-}
 
 .navActive {
     font-weight: 700;
 }
 
-.nav li {
-    /* 5em */
-    margin-left: 5em;
-    display: inline-block;
-    vertical-align: top;   
-}
+
 
 @media only screen and (min-width: 400px) {
     .nav li {
-        margin-left: 3em;
+        //margin-left: 3em;
     }
 }
 
@@ -75,10 +102,15 @@
     .nav li {
         margin-left: 5em;
     }
+    
+  
+
+
+.nav {
+    vertical-align: top;
+    display: inline-block;
+    list-style-type: none;
+}
 }
 
 
-.headerWrapper {
-    padding-top: 2em;
-    padding-left: 7em;
-}
