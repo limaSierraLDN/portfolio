@@ -7,13 +7,19 @@
 
 .imageContainer {
     text-align: center;
+     -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
+
+
 
 .portImage {
     text-align: center;
     margin: 0 auto;
      height: auto;
-    width: 100%; 
+    width: 90%;
+    
 }
 
 .capContainer {
@@ -34,3 +40,19 @@
 .portImage img {
   
 }
+
+.icon {
+    display: inline-block;
+    width: 2.5%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
+} */

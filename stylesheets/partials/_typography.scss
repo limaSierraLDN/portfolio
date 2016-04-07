@@ -36,8 +36,9 @@ a {
 
 .sliding-a, 
 .sliding-w,
-.sliding-c {
-     text-decoration: none;
+.sliding-c,
+.sliding-L {
+    text-decoration: none;
     position: relative;  
 }
 
@@ -53,9 +54,21 @@ a {
   transition: 0.4s;
 }
 
+.sliding-L:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 1px solid black;
+  transition: 0.4s;
+}
+
+
 .sliding-a:hover:after, 
 .sliding-w:hover:after,
-.sliding-c:hover:after {
+.sliding-c:hover:after,
+.sliding-L:hover:after {
 width: 100%;
 }
 
