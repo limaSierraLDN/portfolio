@@ -11,3 +11,16 @@ $(document).keydown(function(e) {
     }
     e.preventDefault(); // prevent the default action (scroll / move caret)
 });
+
+$(function() {      
+      //Keep track of how many swipes
+      var count=0;
+      //Enable swiping...
+      $(".portImage").swipe( {
+        //Single swipe handler for left swipes
+        swipeRight:function(event, direction, distance, duration, fingerCount) {
+             window.location.href= 'port2.html';
+        },
+        
+      });
+    });
