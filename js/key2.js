@@ -15,3 +15,23 @@ $(document).keydown(function(e) {
     }
     e.preventDefault(); // prevent the default action (scroll / move caret)
 });
+
+$(function() {      
+      $(".portImage").swipe( {
+        //Single swipe handler for left swipes
+        swipeLeft:function(event, direction, distance, duration, fingerCount) {
+             window.location.href= 'port3.html';
+        },
+        
+      });
+    });
+
+$(function() {      
+      $(".portImage").swipe( {
+        //Single swipe handler for left swipes
+        swipeRight:function(event, direction, distance, duration, fingerCount) {
+             window.location.href= 'port1.html';
+        },
+        
+      });
+    });

@@ -18,7 +18,7 @@ $(function() {
       //Enable swiping...
       $(".portImage").swipe( {
         //Single swipe handler for left swipes
-        swipeRight:function(event, direction, distance, duration, fingerCount) {
+        swipeLeft:function(event, direction, distance, duration, fingerCount) {
              window.location.href= 'port2.html';
         },
         
