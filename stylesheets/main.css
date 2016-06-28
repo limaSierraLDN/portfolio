@@ -390,10 +390,10 @@ ul {
 
 @font-face {
   font-family: 'ICT';
-  src: url("Fonts/ITCAvantGardeGothicStd/ITCAvantGardeStd-Bk.otf"); }
+  src: url("../fonts/ITCAvantGardeStd-Bk.otf"); }
 @font-face {
   font-family: 'ICTBold';
-  src: url("Fonts/ITCAvantGardeGothicStd/ITCAvantGardeStd-Bold.otf"); }
+  src: url("../fonts/ITCAvantGardeStd-Bold.otf"); }
 body,
 p,
 h1,
