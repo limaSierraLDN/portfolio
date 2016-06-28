@@ -3,19 +3,20 @@
 
 @font-face {
    font-family: 'ICT';
-   src: url(../../Fonts/ITCAvantGardeStd-Bk.otf);
+   src: url("Fonts/ITCAvantGardeGothicStd/ITCAvantGardeStd-Bk.otf");
 }
 
 @font-face {
    font-family: 'ICTBold';
-   src: url(../../Fonts/ITCAvantGardeStd-Bold.otf);
+   src: url("Fonts/ITCAvantGardeGothicStd/ITCAvantGardeStd-Bold.otf");
 }
 
 body, 
 p,
 h1,
 h3,
-ul {
+ul,
+li {
     font-family: 'ICT', 'Open Sans', 'Verdana';
 }
 

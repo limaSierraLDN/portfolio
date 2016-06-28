@@ -13,9 +13,6 @@ $(document).keydown(function(e) {
 });
 
 $(function() {      
-      //Keep track of how many swipes
-      var count=0;
-      //Enable swiping...
       $(".portImage").swipe( {
         //Single swipe handler for left swipes
         swipeLeft:function(event, direction, distance, duration, fingerCount) {

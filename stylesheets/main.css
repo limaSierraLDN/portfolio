@@ -390,15 +390,16 @@ ul {
 
 @font-face {
   font-family: 'ICT';
-  src: url(../../Fonts/ITCAvantGardeStd-Bk.otf); }
+  src: url("Fonts/ITCAvantGardeGothicStd/ITCAvantGardeStd-Bk.otf"); }
 @font-face {
   font-family: 'ICTBold';
-  src: url(../../Fonts/ITCAvantGardeStd-Bold.otf); }
+  src: url("Fonts/ITCAvantGardeGothicStd/ITCAvantGardeStd-Bold.otf"); }
 body,
 p,
 h1,
 h3,
-ul {
+ul,
+li {
   font-family: 'ICT', 'Open Sans', 'Verdana'; }
 
 .text {
@@ -630,9 +631,9 @@ a {
     line-height: 1em;
     text-align: left; } }
 .portContainer {
-  padding-top: 2em;
+  padding-top: none;
   text-align: center;
-  width: 90%;
+  width: 100%;
   margin: 0 auto; }
 
 .imageContainer {
@@ -658,10 +659,20 @@ a {
   margin: 0 auto; }
 
 .icon {
+  margin: 0 10px;
   display: inline-block;
-  width: 2.5%;
   position: relative;
   top: 50%;
   transform: translateY(-50%); }
+
+.icon {
+  margin: 0 10px;
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.icon:hover {
+  opacity: 0.8; }
 
 /*# sourceMappingURL=main.css.map */
