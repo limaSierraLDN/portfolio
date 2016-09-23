@@ -390,10 +390,10 @@ ul {
 
 @font-face {
   font-family: 'ICT';
-  src: url("../fonts/ITCAvantGardeStd-Bk.otf"); }
+  src: url("../../fonts/ITCAvantGardeStd-Bk.otf"); }
 @font-face {
   font-family: 'ICTBold';
-  src: url("../fonts/ITCAvantGardeStd-Bold.otf"); }
+  src: url("../../fonts/ITCAvantGardeStd-Bold.otf"); }
 body,
 p,
 h1,
@@ -454,7 +454,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   font-weight: lighter;
-  margin-bottom: 1.2em;
+  margin-bottom: 0.666em;
   display: inline-block;
   font-size: 2em;
   padding: 1em 0.2em 0 0.2em;
@@ -493,11 +493,6 @@ a {
   font: 'ICT';
   font-weight: lighter; }
 
-.titleAlt {
-  font-size: 0.7em;
-  font: 'ICTBold';
-  font-weight: bold; }
-
 .titleHeader {
   line-height: 0.6em;
   display: inline-block; }
@@ -506,9 +501,13 @@ a {
   text-align: center;
   color: #d7d7d7;
   font-weight: 200;
-  margin-bottom: 1em;
   text-transform: capitalize;
   font-size: 1.2em; }
+
+.titleAlt {
+  font-size: 0.7em;
+  font: 'ICTBold';
+  font-weight: 900; }
 
 .navActive {
   font-weight: 700; }
@@ -548,7 +547,6 @@ a {
       width: 100%; } }
 
 .portfolioWrapper {
-  padding-top: 1em;
   margin: 0 auto;
   width: 100%;
   text-align: center; }
@@ -596,9 +594,12 @@ a {
   padding-left: 0.5em; }
 
 #firstP {
-  margin-top: 1.1em; }
+  margin-top: 1.2em; }
 
 #secondP {
+  margin-top: 2em; }
+
+#thirdP {
   margin-top: 2em; }
 
 @media only screen and (min-width: 770px) {

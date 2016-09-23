@@ -15,14 +15,13 @@
 .projectsSection {
     width: 100%;
     margin: 0 auto;
-    
+
     @media only screen and (max-width: 400px) {
         width: 100%;
     }
 }
 
 .portfolioWrapper {
-    padding-top: 1em;
     margin: 0 auto;
     width: 100%;
     text-align: center;
@@ -41,11 +40,11 @@
 
 
 @media only screen and (min-width: 888px) {
-    
+
     .projectSection {
         width: 95%;
     }
-    
+
     .project {
         vertical-align: baseline;
         display: inline-block;
@@ -76,4 +75,3 @@
     padding-bottom: 1.5rem;
 }
 }
-    

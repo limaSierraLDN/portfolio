@@ -11,33 +11,37 @@
 }
 
 #firstP {
-    margin-top: 1.1em;
+    margin-top: 1.2em;
 }
 
-#secondP { 
+#secondP {
     margin-top: 2em;
 }
 
+#thirdP {
+  margin-top: 2em;
+}
+
 @media only screen and (min-width: 770px) {
-    
+
     .textContainer {
     margin-left: 9em;
-    width: 70%; 
+    width: 70%;
     padding-top: 1em;
 }
 }
 
 @media only screen and (min-width: 880px) {
-     
+
     .textContainer {
     margin-left: 9em;
-    width: 60%;   
+    width: 60%;
 }
 }
 
-    
-    
-    
+
+
+
 /* Contact Page */
 
 .textContainerC {
@@ -64,7 +68,3 @@
         text-align: left;
 }
 }
-
-
-
-

@@ -3,16 +3,16 @@
 
 @font-face {
    font-family: 'ICT';
-   src: url("../fonts/ITCAvantGardeStd-Bk.otf");
+   src: url("../../fonts/ITCAvantGardeStd-Bk.otf");
 }
 
 
 @font-face {
    font-family: 'ICTBold';
-   src: url("../fonts/ITCAvantGardeStd-Bold.otf");
+   src: url("../../fonts/ITCAvantGardeStd-Bold.otf");
 }
 
-body, 
+body,
 p,
 h1,
 h3,
@@ -36,15 +36,15 @@ a {
 
 /* Sliding Links Lines */
 
-.sliding-a, 
+.sliding-a,
 .sliding-w,
 .sliding-c,
 .sliding-L {
     text-decoration: none;
-    position: relative;  
+    position: relative;
 }
 
-.sliding-a:after, 
+.sliding-a:after,
 .sliding-w:after,
 .sliding-c:after {
   content: '';
@@ -67,11 +67,9 @@ a {
 }
 
 
-.sliding-a:hover:after, 
+.sliding-a:hover:after,
 .sliding-w:hover:after,
 .sliding-c:hover:after,
 .sliding-L:hover:after {
 width: 100%;
 }
-
-
