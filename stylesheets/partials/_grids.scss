@@ -13,12 +13,7 @@
 
 
 .projectsSection {
-    display: flex;
-    justify-content: flex;
-    flex-direction: row;
-    align-items: center;
-    align-self: center;
-    align-content: center;
+  text-align: center;
     width: 100%;
     margin: 0 auto;
     @media only screen and (max-width: 400px) {
@@ -29,15 +24,21 @@
 .portfolioWrapper {
     margin: 0 auto;
     width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
 
 .project {
     vertical-align: baseline;
     margin: 0 auto;
     margin-top: 1em;
-    width: 30%;
-    display: inline-block;
+    width: 66.6%;
 }
 
 
