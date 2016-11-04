@@ -4,7 +4,7 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
-@import url(//fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -390,17 +390,19 @@ ul {
 
 @font-face {
   font-family: 'ICT';
-  src: url("../../fonts/ITCAvantGardeStd-Bk.otf"); }
+  src: url("../fonts/ITCAvantGardeStd-Bk.otf"); }
 @font-face {
   font-family: 'ICTBold';
-  src: url("../../fonts/ITCAvantGardeStd-Bold.otf"); }
+  src: url("../fonts/ITCAvantGardeStd-Bold.otf"); }
 body,
 p,
 h1,
 h3,
 ul,
 li {
-  font-family: 'ICT', 'Open Sans', 'Verdana'; }
+  font-family: 'ICT', 'Open Sans', 'Verdana';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 .text {
   text-align: center; }
@@ -426,8 +428,8 @@ a {
   bottom: 0;
   left: 0;
   width: 0%;
-  border-bottom: 2px solid black;
-  transition: 0.4s; }
+  border-bottom: 1.666px solid black;
+  transition: 0.666s; }
 
 .sliding-L:after {
   content: '';
@@ -444,11 +446,21 @@ a {
 .sliding-L:hover:after {
   width: 100%; }
 
+.nav li a {
+  letter-spacing: 0.3333px; }
+
+.boldLink {
+  font-family: 'ICTBold'; }
+
 .headerWrapper {
   width: 50%;
   margin-top: 1em;
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
 
 .titleHeader {
   margin-left: auto;
@@ -514,7 +526,7 @@ a {
 
 @media only screen and (min-width: 890px) {
   .nav li {
-    margin-left: 5em; }
+    margin-left: 3.666em; }
 
   .nav {
     vertical-align: top;
@@ -565,6 +577,7 @@ a {
   margin: 0 auto;
   width: 100%;
   display: flex;
+  flex: initial;
   justify-content: center;
   align-items: center;
   align-self: center;
