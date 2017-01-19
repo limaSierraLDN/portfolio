@@ -2,7 +2,7 @@
 $("div.slideshow").each(function() {
 
     // store how many slides in slideshow
-    var numberOfSlides = $(this).find("img").length;
+    var numberOfSlides = $(this).find(".ggg").length;
     console.log(numberOfSlides);
 
     // store the slideshow content holder
