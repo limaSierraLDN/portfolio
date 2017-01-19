@@ -1,0 +1,25 @@
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+div.slideshow-holder {
+
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+
+}
+
+div.slideshow-content {
+    top: 0;
+    left: 0;
+    position: relative;
+    height: 500px;
+    width: 10000%;
+    transition: left 1s;
+    img {
+      float: left;
+    }
+}

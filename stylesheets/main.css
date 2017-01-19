@@ -555,16 +555,26 @@ a {
   width: 100%;
   opacity: 0.6; }
 
-#fruit {
-  background-image: url(Work/imagesSmall/FruitAndWoolFrontCover.png); }
+.pImageC {
+  position: relative; }
+
+.pImageC .fruit {
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background: url(/images/Work/imagesSmall/FruitAndWoolFrontCover.jpg); }
 
 .pImageC .pImage {
+  position: absolute;
+  top: 0;
+  left: 0;
   vertical-align: bottom;
   background-repeat: no-repeat;
   background-size: contain;
-  background-origin: center;
-  display: inline-block;
-  position: relative; }
+  background-position: center;
+  display: inline-block; }
 
 .pImageC .pImage .active {
   opacity: 0; }
@@ -573,16 +583,17 @@ a {
   opacity: 1; }
 
 .pImageC .pImage {
+  /*
   position: absolute;
   left: 0;
   right: 0;
-  margin: auto; }
+  margin: auto;*/ }
 
 .pImageC .pImage:hover {
   cursor: pointer;
   background-repeat: no-repeat;
   background-size: auto;
-  background-origin: center; }
+  background-position: center; }
 
 .pImageC:hover .active {
   opacity: 1;
@@ -745,5 +756,24 @@ a {
 
 .icon:hover {
   opacity: 0.8; }
+
+img {
+  max-width: 100%;
+  vertical-align: bottom; }
+
+div.slideshow-holder {
+  width: 800px;
+  height: 500px;
+  overflow: hidden; }
+
+div.slideshow-content {
+  top: 0;
+  left: 0;
+  position: relative;
+  height: 500px;
+  width: 10000%;
+  transition: left 1s; }
+  div.slideshow-content img {
+    float: left; }
 
 /*# sourceMappingURL=main.css.map */
