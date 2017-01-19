@@ -555,6 +555,43 @@ a {
   width: 100%;
   opacity: 0.6; }
 
+#fruit {
+  background-image: url(Work/imagesSmall/FruitAndWoolFrontCover.png); }
+
+.pImageC .pImage {
+  vertical-align: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: center;
+  display: inline-block;
+  position: relative; }
+
+.pImageC .pImage .active {
+  opacity: 0; }
+
+.pImageC .pImage .inactive {
+  opacity: 1; }
+
+.pImageC .pImage {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.pImageC .pImage:hover {
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-origin: center; }
+
+.pImageC:hover .active {
+  opacity: 1;
+  transition: all 0.3s ease; }
+
+.pImageC:hover .inactive {
+  opacity: 0;
+  transition: all 0.3s ease; }
+
 .page {
   width: 90%;
   margin: 0 auto;
