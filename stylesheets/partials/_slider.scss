@@ -5,21 +5,40 @@ img {
 }
 
 div.slideshow-holder {
-
-    width: 800px;
-    height: 500px;
+    width: 90%;
+    height: 100%;
     overflow: hidden;
-
+    margin: 0 auto;
 }
 
 div.slideshow-content {
     top: 0;
     left: 0;
     position: relative;
-    height: 500px;
+    height: 100%;
     width: 10000%;
     transition: left 1s;
     img {
       float: left;
     }
+}
+
+.actions {
+    display: flex;
+    //justify-content: space-between;
+    flex-direction: row;
+    width: 50%;
+
+}
+
+.actions a,
+.actions a:visited,
+.actions span {
+    opacity: 1;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.actions a:hover {
+    opacity: 0.9;
 }
