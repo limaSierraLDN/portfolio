@@ -771,6 +771,7 @@ a {
 
 .controls {
   display: flex;
+  opacity: 1;
   justify-content: center;
   flex-direction: row;
   flex-wrap: nowrap; }
@@ -778,6 +779,8 @@ a {
     height: 30px;
     width: 30px;
     margin: 1em; }
+    .controls .slick-arrow:hover {
+      opacity: 0.8; }
 
 /*
 div {
