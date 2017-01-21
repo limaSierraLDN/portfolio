@@ -454,7 +454,6 @@ a {
 
 .headerWrapper {
   width: 50%;
-  margin-top: 1em;
   margin: 0 auto;
   text-align: center;
   -webkit-user-select: none;
@@ -469,7 +468,7 @@ a {
   margin-bottom: 0.666em;
   display: inline-block;
   font-size: 2em;
-  padding: 1em 0.2em 0 0.2em;
+  padding: 0.5em 0.2em 0 0.2em;
   text-align: left; }
 
 .nav li {
@@ -757,11 +756,12 @@ a {
 .icon:hover {
   opacity: 0.8; }
 
-.slideshow {
-  width: 70%;
+/*.slideshow {
+  width: 90%;
   height: 50%;
-  margin: 0 auto; }
-
+  margin: 0 auto;
+}
+*/
 .slick-arrow {
   display: none; }
 
@@ -781,6 +781,19 @@ a {
     margin: 1em; }
     .controls .slick-arrow:hover {
       opacity: 0.8; }
+
+.page .slideshow .slick-list {
+  overflow: visible; }
+
+div#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999999990;
+  width: 100vw;
+  height: 100vh;
+  overflow: visible;
+  background: white url("http://files.mimoymima.com/images/loading.gif") no-repeat center center; }
 
 /*
 div {
