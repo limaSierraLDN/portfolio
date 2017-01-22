@@ -18,24 +18,43 @@ function preloader() {
     var img16 = new Image();
     var img17 = new Image();
     var img18 = new Image();
+		var img19 = new Image();
+		var img20 = new Image();
+		var img21 = new Image();
+		var img22 = new Image();
 
-		img1.src = "images/Work/imagesSmall/CollageSpread.png";
-    img2.src = "images/Work/imagesSmall/Focused.png";
-    img3.src = "images/Work/imagesSmall/HappyPoster.png";
-    img4.src = "images/Work/imagesSmall/HideoutFlyer.png";
-    img5.src = "images/Work/imagesSmall/HideoutMenu.png";
-    img6.src = "images/Work/imagesSmall/HideoutMenu.png";
-    img7.src = "images/Work/imagesSmall/MaxisFrontCover.png";
-    img8.src = "images/Work/imagesSmall/MaxisSpread.png";
-    img9.src = "images/Work/imagesSmall/Nature2NurtureAbout.png";
-    img10.src = "images/Work/imagesSmall/OneValpyCover.png";
-    img11.src = "images/Work/imagesSmall/OneValpyMapSpread.png";
-    img12.src = "images/Work/imagesSmall/OneValpyPlansSpread.png";
-    img13.src = "images/Work/imagesSmall/PlanSpread.png";
-    img14.src = "images/Work/imagesSmall/TTSpread.png";
-    img15.src = "images/Work/imagesSmall/TTFrontCover.png";
-    img17.src = "images/Work/imagesSmall/WalterHouseCover.png";
-    img18.src = "images/Work/imagesSmall/WalterHouseSpread.png";
+
+
+		img1.src = "images/ImagesSmall/Fruit-&-Wool-Collage-Spread.jpg";
+		img20.src = "images/ImagesSmall/Fruit-&-Wool-Front-Cover.jpg";
+		img21.src = "images/ImagesSmall/Fruit-&-Wool-Map-Spread.jpg";
+		img22.src = "images/ImagesSmall/Fruit-&-Wool-Plan-Spread.jpg";
+
+    img2.src = "images/ImagesSmall/Focused.jpg";
+
+
+    img3.src = "images/ImagesSmall/The-Rising-Sun-Happy-Poster.jpg";
+
+    img4.src = "images/ImagesSmall/The-Hideout-pop-up.jpg";
+
+    img7.src = "images/ImagesSmall/Maxis-Front-Cover.jpg";
+    img8.src = "images/ImagesSmall/Maxis-Map-Spread.jpg";
+
+    img9.src = "images/ImagesSmall/Nature-2-Nurture-Home.jpg";
+    img10.src = "images/ImagesSmall/Nature-2-Nurture-About.jpg";
+
+    img11.src = "images/ImagesSmall/One-Valpy-Map-Spread.jpg";
+    img12.src = "images/ImagesSmall/One-Valpy-plans-Spread.jpg";
+    img13.src = "images/ImagesSmall/Merkaba-Gallery.jpg";
+
+    img14.src = "images/ImagesSmall/Thames-Tower-Cover.jpg";
+    img15.src = "images/ImagesSmall/Thames-Tower-Spread.jpg";
+    img17.src = "images/ImagesSmall/Walter-House-Cover.jpg";
+    img18.src = "images/ImagesSmall/Walter-House-Spread.jpg";
+
+		img19.src = "images/ImagesSmall/Merkaba-Home.jpg";
+
+
 	}
 }
 function addLoadEvent(func) {

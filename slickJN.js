@@ -2,12 +2,15 @@ $(document).ready(function($) {
 
 // site preloader -- also uncomment the div in the header and the css style for #preloader
 
-	$('#preloader').fadeOut('slow',function() {
+	/*$('#preloader').fadeOut('slow',function() {
     $(this).remove();
   }
-);
+);*/
 
+//Print First instance of copyP and titleP
 
+$('.titlep').text("testing");
+$('.copyContentp').text("testing");
 
 
 //Slideshow Init
@@ -39,7 +42,6 @@ $('.prev').click(function(e) {
  $('.next').click(function(e) {
    checkCurrent = $('.slick-current').attr('data-slick-index');
     console.log("Current Slide: " + checkCurrent);
-
     printText();
   });
 
@@ -49,37 +51,37 @@ $('.prev').click(function(e) {
 var printText = function () {
   console.log('working');
   console.log(checkCurrent);
-    if (checkCurrent === 0) {
-      $('.titlep').text("testing");
+  if (checkCurrent === 0) {
+    $('.titlep').text("testing");
+    $('.copyContentp').text("testing");
+  } else  if (checkCurrent === 1) {
+      $('.titlep').text("ffff");
       $('.copyContentp').text("testing");
-    } else  if (checkCurrent === 1) {
-        $('.titlep').text("ffff");
+    } else  if (checkCurrent === 2) {
+        $('.titlep').text("testiaaaang");
         $('.copyContentp').text("testing");
-      } else  if (checkCurrent === 2) {
-          $('.titlep').text("testiaaaang");
+      } else  if (checkCurrent === 3) {
+          $('.titlep').text("aaaww");
           $('.copyContentp').text("testing");
-        } else  if (checkCurrent === 3) {
-            $('.titlep').text("aaaww");
+        } else  if (checkCurrent === 4) {
+            $('.titlep').text("fghyjy");
             $('.copyContentp').text("testing");
-          } else  if (checkCurrent === 4) {
-              $('.titlep').text("fghyjy");
+          } else  if (checkCurrent === 5) {
+              $('.titlep').text("testing");
               $('.copyContentp').text("testing");
-            } else  if (checkCurrent === 5) {
-                $('.titlep').text("testing");
+            } else  if (checkCurrent === 6) {
+                $('.titlep').text("fffff");
                 $('.copyContentp').text("testing");
-              } else  if (checkCurrent === 6) {
+              } else  if (checkCurrent === 7) {
                   $('.titlep').text("testing");
                   $('.copyContentp').text("testing");
-                } else  if (checkCurrent === 7) {
+                } else  if (checkCurrent === 8) {
                     $('.titlep').text("testing");
                     $('.copyContentp').text("testing");
-                  } else  if (checkCurrent === 8) {
+                  } else  if (checkCurrent === 9) {
                       $('.titlep').text("testing");
                       $('.copyContentp').text("testing");
-                    } else  if (checkCurrent === 9) {
-                        $('.titlep').text("testing");
-                        $('.copyContentp').text("testing");
-                      }
+                    }
 }
 
 

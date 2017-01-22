@@ -1,9 +1,9 @@
-/*.slideshow {
+.slideshow {
   width: 90%;
-  height: 50%;
+  height: 25%;
   margin: 0 auto;
 }
-*/
+
 
 .slick-arrow {
   display: none;
@@ -31,7 +31,7 @@
 }
 
 .page .slideshow .slick-list {
-  overflow: visible;
+  overflow: hidden;
 }
 
 div#preloader {
@@ -42,7 +42,7 @@ div#preloader {
     width: 100vw;
     height: 100vh;
     overflow: visible;
-    background: white url('http://files.mimoymima.com/images/loading.gif') no-repeat center center;
+    background: white url('images/ajax-loader.gif') no-repeat center center;
   }
 
 /*

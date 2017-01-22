@@ -563,7 +563,7 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background: url(/images/Work/imagesSmall/FruitAndWoolFrontCover.jpg); }
+  background-image: url(images/imagesSmall/Focused.jpg); }
 
 .pImageC .pImage {
   position: absolute;
@@ -756,12 +756,11 @@ a {
 .icon:hover {
   opacity: 0.8; }
 
-/*.slideshow {
+.slideshow {
   width: 90%;
-  height: 50%;
-  margin: 0 auto;
-}
-*/
+  height: 25%;
+  margin: 0 auto; }
+
 .slick-arrow {
   display: none; }
 
@@ -783,7 +782,7 @@ a {
       opacity: 0.8; }
 
 .page .slideshow .slick-list {
-  overflow: visible; }
+  overflow: hidden; }
 
 div#preloader {
   position: fixed;
@@ -793,7 +792,7 @@ div#preloader {
   width: 100vw;
   height: 100vh;
   overflow: visible;
-  background: white url("http://files.mimoymima.com/images/loading.gif") no-repeat center center; }
+  background: white url("images/ajax-loader.gif") no-repeat center center; }
 
 /*
 div {
