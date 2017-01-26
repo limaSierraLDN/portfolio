@@ -563,7 +563,7 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-image: url(images/imagesSmall/Focused.jpg); }
+  background-image: url(../images/imagesSmall/Focused.jpg); }
 
 .pImageC .pImage {
   position: absolute;
