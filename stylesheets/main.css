@@ -555,7 +555,9 @@ a {
   opacity: 0.6; }
 
 .pImageC {
-  position: relative; }
+  position: relative;
+  height: 30%;
+  width: 30%; }
 
 .pImageC .fruit {
   height: 100px;
