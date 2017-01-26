@@ -47,10 +47,11 @@ $('.prev').click(function(e) {
 
 
 // Alter HTML
-
+// switch case this sucka 
 var printText = function () {
   console.log('working');
   console.log(checkCurrent);
+	checkCurrent = parseInt(checkCurrent);
   if (checkCurrent === 0) {
     $('.titlep').text("testing");
     $('.copyContentp').text("testing");
