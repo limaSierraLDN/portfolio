@@ -581,13 +581,6 @@ a {
 .pImageC .pImage .inactive {
   opacity: 1; }
 
-.pImageC .pImage {
-  /*
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;*/ }
-
 .pImageC .pImage:hover {
   cursor: pointer;
   background-repeat: no-repeat;

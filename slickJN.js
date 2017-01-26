@@ -2,10 +2,10 @@ $(document).ready(function($) {
 
 // site preloader -- also uncomment the div in the header and the css style for #preloader
 
-	/*$('#preloader').fadeOut('slow',function() {
+	$('#preloader').fadeOut('slow',function() {
     $(this).remove();
   }
-);*/
+);
 
 //Print First instance of copyP and titleP
 
