@@ -532,8 +532,7 @@ a {
     display: inline-block;
     list-style-type: none; } }
 .pImageC {
-  width: 100%;
-  overflow: hidden; }
+  width: 100%; }
 
 .image {
   display: block;
@@ -752,8 +751,7 @@ a {
   opacity: 0.8; }
 
 .slideshow {
-  width: 90%;
-  height: 25%;
+  width: 66.6%;
   margin: 0 auto; }
 
 .slick-arrow {
