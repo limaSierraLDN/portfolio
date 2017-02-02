@@ -746,9 +746,9 @@ a {
   opacity: 0.8; }
 
 .slideshow {
-  width: 66.6%;
-  height: 10%;
-  margin: 0 auto; }
+  width: 50%;
+  height: 50%;
+  margin: 1em auto 0; }
 
 .slick-arrow {
   display: none; }
@@ -756,6 +756,10 @@ a {
 .copy {
   text-align: center;
   margin-top: 1em; }
+
+.copyContent {
+  width: 50%;
+  margin: 0 auto; }
 
 .controls {
   display: flex;
@@ -771,7 +775,7 @@ a {
       opacity: 0.8; }
 
 .page .slideshow .slick-list {
-  overflow: hidden; }
+  overflow: visible; }
 
 div#preloader {
   position: fixed;

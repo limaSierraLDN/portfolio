@@ -40,22 +40,22 @@ var printText = function () {
 } else  if (checkCurrent === 1) {
 	//Client:  The Fruit & Wool Exchange
 	$('.titlep').text("Client:  The Fruit & Wool Exchange");
-	$('.copyContentp').text("Image montaget");
+	$('.copyContentp').text("Image montage");
 	$('.website').text(" ");
 	} else  if (checkCurrent === 2) {
 		//Client:  The Fruit & Wool Exchange
 		$('.titlep').text("Client:  The Fruit & Wool Exchange");
-		$('.copyContentp').text("Image montaget");
+		$('.copyContentp').text("Image montage");
 		$('.website').text(" ");
 		} else  if (checkCurrent === 3) {
 			//Client:  The Fruit & Wool Exchange
 			$('.titlep').text("Client:  The Fruit & Wool Exchange");
-			$('.copyContentp').text("Image montaget");
+			$('.copyContentp').text("Image montage");
 			$('.website').text(" ");
 			} else  if (checkCurrent === 4) {
 				//Client:  The Fruit & Wool Exchange
 				$('.titlep').text("Client:  The Fruit & Wool Exchange");
-				$('.copyContentp').text("Image montaget");
+				$('.copyContentp').text("Image montage");
 				$('.website').text(" ");
 				} else  if (checkCurrent === 5) {
 					//Client:  The Fruit & Wool Exchange
@@ -87,10 +87,6 @@ var printText = function () {
 										$('.titlep').text("Client: Nature To Nurture");
 										$('.copyContentp').text("Logo and web layout design");
 										$('.website').text("nature-to-nurture.co.uk");
-
-										//The Rising Sun, Berkhamsted
-											$('.titlep').text("Client: The Hideout");
-											$('.copyContentp').text("In need of a cool and contemporary brand to suit their stylish sell-out events, The Hideout pop-up restaurant requested marketing materials that would represent their up-to-date attitude to hosting and catering events.");
 										} else if (checkCurrent == 11 ) {
 											//One Valpy Cover
 												$('.titlep').text("Client: One Valpy");
@@ -100,13 +96,13 @@ var printText = function () {
 										else if (checkCurrent == 12 ) {
 											//One Valpy Cover
 												$('.titlep').text("Client: One Valpy");
-												$('.copyContentp').text(" ");
+												$('.copyContentp').text("Map Design");
 												$('.website').text(" ");
 										}
 										else if (checkCurrent == 13 ) {
 											//One Valpy Cover
 												$('.titlep').text("Client: One Valpy");
-												$('.copyContentp').text(" ");
+												$('.copyContentp').text("Artworked, styled and stacked Architectural floorplans.");
 												$('.website').text(" ");
 										}else if (checkCurrent == 14) {
 											//One Valpy Map
@@ -162,5 +158,28 @@ $('.prev').click(function(e) {
     console.log("Current Slide: " + checkCurrent);
     printText();
   });
+
+
+	$(document).keydown(function(e) {
+	    switch(e.which) {
+	        case 37: // left
+					$('.slideshow').slick('slickPrev');
+	        break;
+
+	        case 38: // up
+	        break;
+
+	        case 39: // right
+					$('.slideshow').slick('slickNext');
+	        break;
+
+	        case 40: // down
+	        break;
+
+	        default: return; // exit this handler for other keys
+	    }
+	    e.preventDefault(); // prevent the default action (scroll / move caret)
+	});
+
 
 });
