@@ -473,32 +473,30 @@ a {
 
 .nav li {
   /* 5em */
-  display: block;
+  display: inline-block;
   vertical-align: top;
-  margin: 0 0 1em 0;
-  text-align: center; }
+  text-align: center;
+  width: 30%; }
 
 @media only screen and (min-width: 770px) {
   .headerWrapper {
     width: 100%;
-    padding-top: 0.5em;
-    padding-left: 3em; }
+    padding-top: 0.5em; }
 
   .titleHeader {
     text-align: left; }
 
   .navContainer {
-    width: 50%;
-    margin: 0 auto;
-    display: inline-block;
-    margin-left: 1em; }
+    width: 100%;
+    margin: 0 auto; }
 
   .nav li {
     display: inline-block;
-    padding: 0 1em 0 1em; } }
+    padding: 0.5em 3em 0 3em;
+    width: auto; } }
 @media only screen and (min-width: 880px) {
   .navContainer {
-    width: 70%; } }
+    width: 100%; } }
 .title {
   font-size: 0.7em;
   font: 'ICT';
@@ -524,9 +522,6 @@ a {
   font-weight: 700; }
 
 @media only screen and (min-width: 890px) {
-  .nav li {
-    margin-left: 3.666em; }
-
   .nav {
     vertical-align: top;
     display: inline-block;
@@ -752,6 +747,7 @@ a {
 
 .slideshow {
   width: 66.6%;
+  height: 10%;
   margin: 0 auto; }
 
 .slick-arrow {
@@ -759,7 +755,7 @@ a {
 
 .copy {
   text-align: center;
-  margin-top: 4em; }
+  margin-top: 1em; }
 
 .controls {
   display: flex;

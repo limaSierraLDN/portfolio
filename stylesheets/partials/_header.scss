@@ -23,17 +23,17 @@
 .nav li {
     /* 5em */
     //margin-left: 5em;
-    display: block;
+    display: inline-block;
     vertical-align: top;
-    margin: 0 0 1em 0;
+
     text-align: center;
+    width: 30%;
 }
 
 @media only screen and (min-width: 770px) {
     .headerWrapper {
     width: 100%;
     padding-top: 0.5em;
-    padding-left: 3em;
     }
 
     .titleHeader {
@@ -41,21 +41,20 @@
     }
 
     .navContainer {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
-    display: inline-block;
-    margin-left: 1em;
 }
 
     .nav li {
         display: inline-block;
-        padding: 0 1em 0 1em;
+        padding: 0.5em 3em 0 3em;
+        width: auto;
     }
 }
 
 @media only screen and (min-width: 880px) {
     .navContainer {
-        width: 70%;
+        width: 100%;
     }
 }
 
@@ -102,7 +101,7 @@
 
 @media only screen and(min-width: 890px) {
     .nav li {
-        margin-left: 3.666em;
+
     }
 
 

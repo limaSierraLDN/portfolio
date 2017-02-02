@@ -1,9 +1,12 @@
 $(document).ready(function($) {
 
+	printText;
+
 // site preloader -- also uncomment the div in the header and the css style for #preloader
 
 	$('#preloader').fadeOut('slow',function() {
     $(this).remove();
+		printText();
   }
 );
 
@@ -27,55 +30,114 @@ $('.copyContentp').text("testing");
 
 // Print
 
-checkCurrent = parseInt(checkCurrent);
-if (checkCurrent === 0) {
-	// Client: Nature To Nurture
-	$('.titlep').text("Client: Nature To Nurture");
-	$('.copyContentp').text("Logo and web layout design");
-	$('.website').text("nature-to-nurture.co.uk");
+var printText = function () {
+	checkCurrent = parseInt(checkCurrent);
+  if (checkCurrent === 0) {
+	//Client: Focused Landscaping
+	$('.titlep').text("Client: Focused Landscaping");
+	$('.copyContentp').text("Logo design");
+	$('.website').text(" ");
 } else  if (checkCurrent === 1) {
-	//Client: Merkaba
-		$('.titlep').text("Client: Merkaba");
-		$('.copyContentp').text("Web layout design");
-			$('.website').text("Merkabacommunity.com");
+	//Client:  The Fruit & Wool Exchange
+	$('.titlep').text("Client:  The Fruit & Wool Exchange");
+	$('.copyContentp').text("Image montaget");
+	$('.website').text(" ");
 	} else  if (checkCurrent === 2) {
-		//Client: Maxis Bracknell Maps
-			$('.titlep').text("Client: Maxis Bracknell Maps");
-			$('.copyContentp').text("Left: Schematic map of main road links into greater london. Right: Location map of Bracknell");
+		//Client:  The Fruit & Wool Exchange
+		$('.titlep').text("Client:  The Fruit & Wool Exchange");
+		$('.copyContentp').text("Image montaget");
+		$('.website').text(" ");
 		} else  if (checkCurrent === 3) {
-			//Client: Thames Tower Map
-				$('.titlep').text("Client: Thames Tower Map");
-				$('.copyContentp').text("Styled location map of Reading");
+			//Client:  The Fruit & Wool Exchange
+			$('.titlep').text("Client:  The Fruit & Wool Exchange");
+			$('.copyContentp').text("Image montaget");
+			$('.website').text(" ");
 			} else  if (checkCurrent === 4) {
 				//Client:  The Fruit & Wool Exchange
-					$('.titlep').text("Client:  The Fruit & Wool Exchange");
-					$('.copyContentp').text("Image montaget");
+				$('.titlep').text("Client:  The Fruit & Wool Exchange");
+				$('.copyContentp').text("Image montaget");
+				$('.website').text(" ");
 				} else  if (checkCurrent === 5) {
 					//Client:  The Fruit & Wool Exchange
 						$('.titlep').text("Client:  The Fruit & Wool Exchange");
 						$('.copyContentp').text("Map design and architectural elevation artwork");
+						$('.website').text(" ");
 					} else  if (checkCurrent === 6) {
 						//Client:  The Fruit & Wool Exchange
 							$('.titlep').text("Client:  The Fruit & Wool Exchange");
 							$('.copyContentp').text("Architectural floorplan artwork.Redrawn and styled floorplans.");
-
+							$('.website').text(" ");
 						} else  if (checkCurrent === 7) {
-							//Client: Walter House & 50 Bedford Street
-								$('.titlep').text("Client: Walter House & 50 Bedford Street");
-								$('.copyContentp').text("Artworked, styled and stacked Architectural floorplans.");
+							//Client: Merkaba
+								$('.titlep').text("Client: Merkaba");
+								$('.copyContentp').text("Web layout design");
+								$('.website').text("Merkabacommunity.com");
 							} else  if (checkCurrent === 8) {
-								//Client: Focused Landscaping
-									$('.titlep').text("Client: Focused Landscaping");
-									$('.copyContentp').text("Logo design");
+								//Client: Merkaba
+									$('.titlep').text("Client: Merkaba");
+									$('.copyContentp').text("Web layout design");
+									$('.website').text("Merkabacommunity.com");
 								} else  if (checkCurrent === 9) {
-									//The Rising Sun, Berkhamsted
-										$('.titlep').text("The Rising Sun, Berkhamsted");
-										$('.copyContentp').text("Beer & Cider festival poster");
+									// Client: Nature To Nurture
+									$('.titlep').text("Client: Nature To Nurture");
+									$('.copyContentp').text("Logo and web layout design");
+									$('.website').text("nature-to-nurture.co.uk");
 									}  else  if (checkCurrent === 10) {
+										// Client: Nature To Nurture
+										$('.titlep').text("Client: Nature To Nurture");
+										$('.copyContentp').text("Logo and web layout design");
+										$('.website').text("nature-to-nurture.co.uk");
+
 										//The Rising Sun, Berkhamsted
 											$('.titlep').text("Client: The Hideout");
 											$('.copyContentp').text("In need of a cool and contemporary brand to suit their stylish sell-out events, The Hideout pop-up restaurant requested marketing materials that would represent their up-to-date attitude to hosting and catering events.");
+										} else if (checkCurrent == 11 ) {
+											//One Valpy Cover
+												$('.titlep').text("Client: One Valpy");
+												$('.copyContentp').text(" ");
+												$('.website').text(" ");
 										}
+										else if (checkCurrent == 12 ) {
+											//One Valpy Cover
+												$('.titlep').text("Client: One Valpy");
+												$('.copyContentp').text(" ");
+												$('.website').text(" ");
+										}
+										else if (checkCurrent == 13 ) {
+											//One Valpy Cover
+												$('.titlep').text("Client: One Valpy");
+												$('.copyContentp').text(" ");
+												$('.website').text(" ");
+										}else if (checkCurrent == 14) {
+											//One Valpy Map
+												$('.titlep').text("Client: Thames Tower Map");
+												$('.copyContentp').text("Styled location map of Reading");
+												$('.website').text(" ");
+										} else if (checkCurrent == 15) {
+										  //One Valpy Artwork
+											$('.titlep').text("Client: The Hideout");
+											$('.copyContentp').text("In need of a cool and contemporary brand to suit their stylish sell-out events, The Hideout pop-up restaurant requested marketing materials that would represent their up-to-date attitude to hosting and catering events.");
+											$('.website').text(" ");
+									} else if (checkCurrent == 16) {
+										//The Rising Sun, Berkhamsted
+											$('.titlep').text("The Rising Sun, Berkhamsted");
+											$('.copyContentp').text("Beer & Cider festival poster");
+										  $('.website').text(" ");
+								} else if (checkCurrent == 17)  {
+										//One Valpy Cover
+											$('.titlep').text("Client: Walter House & 50 Bedford Street");
+											$('.copyContentp').text("Artworked, styled and stacked Architectural floorplans.");
+											$('.website').text(" ");
+									} else if (checkCurrent == 18)  {
+											//One Valpy Cover
+												$('.titlep').text("Client: Walter House & 50 Bedford Street");
+												$('.copyContentp').text("Artworked, styled and stacked Architectural floorplans.");
+												$('.website').text(" ");
+										}
+									}
+
+
+
 
 
 // Display Slide Id's
@@ -100,63 +162,5 @@ $('.prev').click(function(e) {
     console.log("Current Slide: " + checkCurrent);
     printText();
   });
-
-
-// Alter HTML
-// switch case this sucka
-var printText = function () {
-  console.log('working');
-  console.log(checkCurrent);
-	checkCurrent = parseInt(checkCurrent);
-  if (checkCurrent === 0) {
-		// Client: Nature To Nurture
-    $('.titlep').text("Client: Nature To Nurture");
-    $('.copyContentp').text("Logo and web layout design");
-		$('.website').text("nature-to-nurture.co.uk");
-  } else  if (checkCurrent === 1) {
-		//Client: Merkaba
-      $('.titlep').text("Client: Merkaba");
-      $('.copyContentp').text("Web layout design");
-				$('.website').text("Merkabacommunity.com");
-    } else  if (checkCurrent === 2) {
-			//Client: Maxis Bracknell Maps
-        $('.titlep').text("Client: Maxis Bracknell Maps");
-        $('.copyContentp').text("Left: Schematic map of main road links into greater london. Right: Location map of Bracknell");
-      } else  if (checkCurrent === 3) {
-				//Client: Thames Tower Map
-          $('.titlep').text("Client: Thames Tower Map");
-          $('.copyContentp').text("Styled location map of Reading");
-        } else  if (checkCurrent === 4) {
-					//Client:  The Fruit & Wool Exchange
-            $('.titlep').text("Client:  The Fruit & Wool Exchange");
-            $('.copyContentp').text("Image montaget");
-          } else  if (checkCurrent === 5) {
-						//Client:  The Fruit & Wool Exchange
-              $('.titlep').text("Client:  The Fruit & Wool Exchange");
-              $('.copyContentp').text("Map design and architectural elevation artwork");
-            } else  if (checkCurrent === 6) {
-							//Client:  The Fruit & Wool Exchange
-                $('.titlep').text("Client:  The Fruit & Wool Exchange");
-                $('.copyContentp').text("Architectural floorplan artwork.Redrawn and styled floorplans.");
-
-              } else  if (checkCurrent === 7) {
-								//Client: Walter House & 50 Bedford Street
-                  $('.titlep').text("Client: Walter House & 50 Bedford Street");
-                  $('.copyContentp').text("Artworked, styled and stacked Architectural floorplans.");
-                } else  if (checkCurrent === 8) {
-									//Client: Focused Landscaping
-                    $('.titlep').text("Client: Focused Landscaping");
-                    $('.copyContentp').text("Logo design");
-                  } else  if (checkCurrent === 9) {
-										//The Rising Sun, Berkhamsted
-                      $('.titlep').text("The Rising Sun, Berkhamsted");
-                      $('.copyContentp').text("Beer & Cider festival poster");
-                    }  else  if (checkCurrent === 10) {
-											//The Rising Sun, Berkhamsted
-	                      $('.titlep').text("Client: The Hideout");
-	                      $('.copyContentp').text("In need of a cool and contemporary brand to suit their stylish sell-out events, The Hideout pop-up restaurant requested marketing materials that would represent their up-to-date attitude to hosting and catering events.");
-	                    }
-}
-
 
 });
