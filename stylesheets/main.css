@@ -452,6 +452,9 @@ a {
 .boldLink {
   font-family: 'ICTBold'; }
 
+.contact {
+  margin-bottom: 1em; }
+
 .headerWrapper {
   width: 50%;
   margin: 0 auto;
