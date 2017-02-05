@@ -804,8 +804,8 @@ a {
   width: 80%;
   height: 50%;
   margin: 0 auto;
-  padding-top: 6em;
-  z-index: 4; }
+  padding-top: 1em;
+  z-index: 18; }
 
 .slideshow .polite .slick-track img {
   width: 100vw !important; }
