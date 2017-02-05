@@ -25,6 +25,7 @@ $('.copyContentp').text("testing");
       nextArrow: $('.next'),
       infinite: true,
       speed: 900,
+			variableWidth: true
   });
 
 
