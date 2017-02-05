@@ -32,6 +32,7 @@ $('.copyContentp').text("testing");
 // Print
 
 var printText = function () {
+	console.log("keeeeyyyy");
 	checkCurrent = parseInt(checkCurrent);
   if (checkCurrent === 0) {
 	//Client: Focused Landscaping
@@ -138,11 +139,6 @@ var printText = function () {
 												$('.website').text(" ");
 										}
 									}
-
-
-
-
-
 // Display Slide Id's
 
 var checkCurrent;
@@ -172,6 +168,7 @@ $('.prev').click(function(e) {
 	        case 37: // left
 					$('.slideshow').slick('slickPrev');
 					printText();
+
 	        break;
 
 	        case 38: // up
