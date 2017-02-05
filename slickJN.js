@@ -171,7 +171,7 @@ $('.prev').click(function(e) {
 	    switch(e.which) {
 	        case 37: // left
 					$('.slideshow').slick('slickPrev');
-					printText;
+					printText();
 	        break;
 
 	        case 38: // up
@@ -179,7 +179,7 @@ $('.prev').click(function(e) {
 
 	        case 39: // right
 					$('.slideshow').slick('slickNext');
-						printText;
+						printText();
 	        break;
 
 	        case 40: // down
