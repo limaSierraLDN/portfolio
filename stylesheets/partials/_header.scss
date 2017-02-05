@@ -113,3 +113,8 @@
     list-style-type: none;
 }
 }
+
+
+.nav.hidden {
+  transform: translateY(100%);
+}

@@ -529,6 +529,9 @@ a {
     vertical-align: top;
     display: inline-block;
     list-style-type: none; } }
+.nav.hidden {
+  transform: translateY(100%); }
+
 .pImageC {
   width: 100%; }
 
@@ -791,7 +794,7 @@ a {
   opacity: 0.8; }
 
 .slideshow {
-  width: 50%;
+  width: 80%;
   height: 50%;
   margin: 1em auto 0; }
 
@@ -831,5 +834,17 @@ div#preloader {
   height: 100vh;
   overflow: visible;
   background: white; }
+
+.slick-arrow {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently */ }
 
 /*# sourceMappingURL=main.css.map */

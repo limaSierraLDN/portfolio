@@ -10,8 +10,6 @@ $(document).ready(function($) {
   }
 );
 
-
-
 //Print First instance of copyP and titleP
 /*
 $('.titlep').text("testing");
@@ -25,7 +23,9 @@ $('.copyContentp').text("testing");
       nextArrow: $('.next'),
       infinite: true,
       speed: 900,
-			variableWidth: true
+			//centerMode: true
+			//centerPadding: 100px,
+		//	variableWidth: true
   });
 
 
@@ -60,13 +60,13 @@ var printText = function () {
 				$('.website').text(" ");
 				} else  if (checkCurrent === 5) {
 					//Client:  The Fruit & Wool Exchange
-						$('.titlep').text("Client:  The Fruit & Wool Exchange");
-						$('.copyContentp').text("Map design and architectural elevation artwork");
+						$('.titlep').text("Client: Maxis");
+						$('.copyContentp').text("Map design");
 						$('.website').text(" ");
 					} else  if (checkCurrent === 6) {
 						//Client:  The Fruit & Wool Exchange
-							$('.titlep').text("Client:  The Fruit & Wool Exchange");
-							$('.copyContentp').text("Architectural floorplan artwork.Redrawn and styled floorplans.");
+							$('.titlep').text("Client: Maxis");
+							$('.copyContentp').text("Map design");
 							$('.website').text(" ");
 						} else  if (checkCurrent === 7) {
 							//Client: Merkaba
@@ -110,22 +110,28 @@ var printText = function () {
 												$('.titlep').text("Client: Thames Tower Map");
 												$('.copyContentp').text("Styled location map of Reading");
 												$('.website').text(" ");
-										} else if (checkCurrent == 15) {
+											} else if (checkCurrent == 15) {
+													//One Valpy Map
+														$('.titlep').text("Client: Thames Tower Map");
+														$('.copyContentp').text("Styled location map of Reading");
+														$('.website').text(" ");
+
+										} else if (checkCurrent == 16) {
 										  //One Valpy Artwork
 											$('.titlep').text("Client: The Hideout");
 											$('.copyContentp').text("In need of a cool and contemporary brand to suit their stylish sell-out events, The Hideout pop-up restaurant requested marketing materials that would represent their up-to-date attitude to hosting and catering events.");
 											$('.website').text(" ");
-									} else if (checkCurrent == 16) {
+									} else if (checkCurrent == 17) {
 										//The Rising Sun, Berkhamsted
 											$('.titlep').text("The Rising Sun, Berkhamsted");
 											$('.copyContentp').text("Beer & Cider festival poster");
 										  $('.website').text(" ");
-								} else if (checkCurrent == 17)  {
+								} else if (checkCurrent == 18)  {
 										//One Valpy Cover
 											$('.titlep').text("Client: Walter House & 50 Bedford Street");
 											$('.copyContentp').text("Artworked, styled and stacked Architectural floorplans.");
 											$('.website').text(" ");
-									} else if (checkCurrent == 18)  {
+									} else if (checkCurrent == 19)  {
 											//One Valpy Cover
 												$('.titlep').text("Client: Walter House & 50 Bedford Street");
 												$('.copyContentp').text("Artworked, styled and stacked Architectural floorplans.");
