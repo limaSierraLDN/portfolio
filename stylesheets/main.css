@@ -546,140 +546,62 @@ a {
   height: 30%;
   width: 30%; }
 
-.pImageC .focused {
+.pImageC div {
   height: 300px;
-  width: 300px;
+  width: 400px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
+  background-position: center; }
+
+.pImageC .focused {
   background-image: url(../images/imagesSmall/Focused.jpg); }
 
 .pImageC .fruit {
-  height: 300px;
-  width: 300px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   background-image: url(../images/imagesSmall/FruitWoolFrontCover.jpg); }
 
 .pImageC .fruit2 {
-  height: 300px;
-  width: 300px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   background-image: url(../images/imagesSmall/FruitWoolMapSpread.jpg); }
 
 .pImageC .maxis {
-  height: 300px;
-  width: 300px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   background-image: url(../images/imagesSmall/Maxis-Front-Cover.jpg); }
 
 .pImageC .maxis2 {
-  height: 300px;
-  width: 300px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   background-image: url(../images/imagesSmall/Maxis-Map-Spread.jpg); }
 
 .pImageC .merkaba {
-  height: 300px;
-  width: 300px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   background-image: url(../images/imagesSmall/Merkaba-Home.jpg); }
 
 .pImageC .merkaba2 {
-  height: 300px;
-  width: 300px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   background-image: url(../images/imagesSmall/Merkaba-Gallery.jpg); }
 
 .pImageC .nature {
-  height: 300px;
-  width: 300px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   background-image: url(../images/imagesSmall/Nature-2-Nurture-Home.jpg); }
 
 .pImageC .nature2 {
-  height: 300px;
-  width: 300px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   background-image: url(../images/imagesSmall/Nature-2-Nurture-About.jpg); }
 
 .pImageC .one {
-  height: 300px;
-  width: 300px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   background-image: url(../images/imagesSmall/One-Valpy-Cover.jpg); }
 
 .pImageC .one2 {
-  height: 300px;
-  width: 300px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   background-image: url(../images/imagesSmall/One-Valpy-plans-Spread.jpg); }
 
 .pImageC .thames {
-  height: 300px;
-  width: 300px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   background-image: url(../images/imagesSmall/Thames-Tower-Cover.jpg); }
 
 .pImageC .thames2 {
-  height: 300px;
-  width: 300px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   background-image: url(../images/imagesSmall/Thames-Tower-Spread.jpg); }
 
 .pImageC .hide {
-  height: 300px;
-  width: 300px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   background-image: url(../images/imagesSmall/The-Hideout-pop-up.jpg); }
 
 .pImageC .cider {
-  height: 300px;
-  width: 300px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   background-image: url(../images/imagesSmall/The-Rising-Sun-Happy-Poster.jpg); }
 
 .pImageC .walter {
-  height: 300px;
-  width: 300px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   background-image: url(../images/imagesSmall/Walter-House-Cover.jpg); }
 
 .pImageC .walter2 {
-  height: 300px;
-  width: 300px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   background-image: url(../images/imagesSmall/Walter-House-Spread.jpg); }
 
 .pImageC .pImage {
@@ -689,26 +611,25 @@ a {
   vertical-align: bottom;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
-  display: inline-block; }
+  background-position: center; }
 
-.pImageC .pImage .active {
+.pImageC .pImage .second {
   opacity: 0; }
 
-.pImageC .pImage .inactive {
+.pImageC .pImage .first {
   opacity: 1; }
 
 .pImageC .pImage:hover {
   cursor: pointer;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: contain;
   background-position: center; }
 
-.pImageC:hover .active {
+.pImageC:hover .second {
   opacity: 1;
   transition: all 0.3s ease; }
 
-.pImageC:hover .inactive {
+.pImageC:hover .first {
   opacity: 0;
   transition: all 0.3s ease; }
 
@@ -732,7 +653,8 @@ a {
 
 .portfolioWrapper {
   margin: 0 auto;
-  width: 100%;
+  width: 100vw;
+  min-height: 100vh;
   display: flex;
   flex: initial;
   justify-content: center;
@@ -743,7 +665,6 @@ a {
   flex-wrap: wrap; }
 
 .project {
-  vertical-align: baseline;
   margin: 0 auto;
   margin-top: 1em;
   width: 100%; }
@@ -751,6 +672,9 @@ a {
 @media only screen and (min-width: 570px) {
   .project {
     width: 66.6%; } }
+@media only screen and (min-width: 870px) {
+  .project {
+    width: 36.6%; } }
 @media only screen and (min-width: 888px) {
   .projectSection {
     width: 100%; }
