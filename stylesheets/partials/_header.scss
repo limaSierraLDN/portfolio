@@ -6,7 +6,16 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  left: 0px;
+  -webkit-transition: -webkit-transform 1s cubic-bezier(0.86, 0, 0.07, 1);
+  -moz-transition: -moz-transform 1s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 1s cubic-bezier(0.86, 0, 0.07, 1);
 }
+
+
 
 .titleHeader {
     margin-left: auto;
@@ -116,5 +125,5 @@
 
 
 .nav.hidden {
-  transform: translateY(100%);
+    transform: translateY(-4300px);
 }
