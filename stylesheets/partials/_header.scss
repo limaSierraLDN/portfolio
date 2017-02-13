@@ -128,3 +128,19 @@
 .nav.hidden {
     transform: translateY(-4300px);
 }
+
+
+
+// 2017
+
+header {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}

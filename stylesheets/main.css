@@ -539,6 +539,17 @@ a {
 .nav.hidden {
   transform: translateY(-4300px); }
 
+header {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-self: center;
+  align-content: center; }
+
 .pImageC {
   width: 100%; }
 
@@ -801,7 +812,7 @@ a {
   opacity: 0.8; }
 
 .slideshow {
-  width: 80%;
+  width: 87.5%;
   height: 50%;
   margin: 0 auto;
   padding-top: 5.5em;
@@ -815,7 +826,8 @@ a {
 
 .copy {
   text-align: center;
-  margin-top: 0.1em; }
+  margin-top: 0.1em;
+  padding-bottom: 0.1em; }
 
 .copyContent {
   width: 50%;

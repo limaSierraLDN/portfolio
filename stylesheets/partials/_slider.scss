@@ -1,5 +1,5 @@
 .slideshow {
-  width: 80%;
+  width: 87.5%;
   height: 50%;
   margin: 0 auto;
       padding-top: 5.5em;
@@ -24,6 +24,7 @@
 .copy {
   text-align: center;
   margin-top: 0.1em;
+  padding-bottom: 0.1em;
 }
 
 .copyContent {
@@ -69,4 +70,4 @@ div#preloader {
        -moz-user-select: none; /* Firefox */
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently */
-                          }
+}
